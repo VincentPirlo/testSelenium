@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23" started-at="2017-09-11T14:45:09Z" finished-at="2017-09-11T14:45:09Z">
+  <suite name="Default suite" duration-ms="19" started-at="2017-09-24T10:04:59Z" finished-at="2017-09-24T10:04:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23" started-at="2017-09-11T14:45:09Z" finished-at="2017-09-11T14:45:09Z">
+    <test name="Default test" duration-ms="19" started-at="2017-09-24T10:04:59Z" finished-at="2017-09-24T10:04:59Z">
       <class name="com.vincent.testng.NGtestOne">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.vincent.testng.NGtestOne@3a82f6ef]" name="beforeClass" is-config="true" duration-ms="6" started-at="2017-09-11T22:45:09Z" finished-at="2017-09-11T22:45:09Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.vincent.testng.NGtestOne@3a82f6ef]" name="beforeClass" is-config="true" duration-ms="5" started-at="2017-09-24T18:04:59Z" finished-at="2017-09-24T18:04:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test()[pri:0, instance:com.vincent.testng.NGtestOne@3a82f6ef]" name="test" duration-ms="4" started-at="2017-09-11T22:45:09Z" finished-at="2017-09-11T22:45:09Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.vincent.testng.NGtestOne@3a82f6ef]" name="test" duration-ms="3" started-at="2017-09-24T18:04:59Z" finished-at="2017-09-24T18:04:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.vincent.testng.NGtestOne@3a82f6ef]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-09-11T22:45:09Z" finished-at="2017-09-11T22:45:09Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.vincent.testng.NGtestOne@3a82f6ef]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-09-24T18:04:59Z" finished-at="2017-09-24T18:04:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
