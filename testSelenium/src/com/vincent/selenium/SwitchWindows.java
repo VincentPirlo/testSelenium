@@ -41,5 +41,19 @@ public class SwitchWindows {
 			}
 		}
 		
+		//判断是否为百度首页，并操作首页上的元素
+		for(String handle : handles){
+			if (handle.equals(sreach_handle)){
+				//切换到注册页面
+				driver.switchTo().window(handle);
+				Thread.sleep(2000);
+				driver.findElement(By.className("close-btn")).click();
+				System.out.println("now baidu sreach page!");
+				driver.findElement(By.id("kw")).sendKeys("webdriver");
+				driver.findElement(By.id("su")).click();
+				Thread.sleep(2000);
+			}
+		}
+		driver.quit();
 	}
 }
