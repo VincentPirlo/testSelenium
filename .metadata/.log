@@ -3307,3 +3307,55 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-10-22 19:58:29.191 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-22 19:58:38.621
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Vincent'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-10-22 22:58:48.298 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-22 22:58:54.757
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Vincent'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2017-10-22 23:06:56.275
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar D:\test-workspace\testTestNG\bin C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 14658 -protocol json -d D:\test-workspace\testTestNG\test-output C:\Users\Vincent\AppData\Local\Temp\testng-eclipse-1505783615\testng-customsuite.xml
+java -ea -classpath C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar:D:\test-workspace\testTestNG\bin:C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 14658 -protocol json -d D:\test-workspace\testTestNG\test-output C:\Users\Vincent\AppData\Local\Temp\testng-eclipse-1505783615\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-10-22 23:07:14.110
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar D:\test-workspace\testTestNG\bin C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 14708 -protocol json -d D:\test-workspace\testTestNG\test-output D:\test-workspace\testTestNG\src\com\vincent\testng\dbc\testng.xml
+java -ea -classpath C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar:D:\test-workspace\testTestNG\bin:C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 14708 -protocol json -d D:\test-workspace\testTestNG\test-output D:\test-workspace\testTestNG\src\com\vincent\testng\dbc\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-10-22 23:10:47.147
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar D:\test-workspace\testTestNG\bin C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 1310 -protocol json -d D:\test-workspace\testTestNG\test-output C:\Users\Vincent\AppData\Local\Temp\testng-eclipse--270293405\testng-customsuite.xml
+java -ea -classpath C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar:D:\test-workspace\testTestNG\bin:C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 1310 -protocol json -d D:\test-workspace\testTestNG\test-output C:\Users\Vincent\AppData\Local\Temp\testng-eclipse--270293405\testng-customsuite.xml
