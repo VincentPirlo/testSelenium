@@ -1,7 +1,7 @@
 /**   
 * @Title: TestRuntime.java 
 * @Package com.vincent.testng 
-* @Description: TODO
+* @Description: TODO异常测试——运行时异常
 * @author Vincent  
 * @date 2017年10月22日 下午11:08:23 
 * @version V1.0   
