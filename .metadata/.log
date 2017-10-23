@@ -3439,3 +3439,19 @@ java -ea -classpath C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\o
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 9593 -protocol json -d D:\test-workspace\testTestNG\test-output D:\test-workspace\testTestNG\src\com\vincent\testng\parallelism\methods-test-testng.xml
 java -ea -classpath C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar:D:\test-workspace\testTestNG\bin:C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 9593 -protocol json -d D:\test-workspace\testTestNG\test-output D:\test-workspace\testTestNG\src\com\vincent\testng\parallelism\methods-test-testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-10-23 22:38:30.790
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar D:\test-workspace\testTestNG\bin C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 12351 -protocol json -d D:\test-workspace\testTestNG\test-output D:\test-workspace\testTestNG\src\com\vincent\testng\parallelism\suite-test-testng.xml
+java -ea -classpath C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar:D:\test-workspace\testTestNG\bin:C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 12351 -protocol json -d D:\test-workspace\testTestNG\test-output D:\test-workspace\testTestNG\src\com\vincent\testng\parallelism\suite-test-testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-10-23 22:51:52.683
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar D:\test-workspace\testTestNG\bin C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 13710 -protocol json -d D:\test-workspace\testTestNG\test-output D:\test-workspace\testTestNG\src\com\vincent\testng\parallelism\independent-test-testng.xml
+java -ea -classpath C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar:D:\test-workspace\testTestNG\bin:C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 13710 -protocol json -d D:\test-workspace\testTestNG\test-output D:\test-workspace\testTestNG\src\com\vincent\testng\parallelism\independent-test-testng.xml
