@@ -13,9 +13,9 @@ import org.testng.annotations.Test;
  * @author Vincent
  *
  */
-public class ExpectedExceptionTest {
+public class ExceptionTest {
     String message = "Manisha";	
-    MessageUtil messageUtil = new MessageUtil(message);
+    ExceptionMessageUtil messageUtil = new ExceptionMessageUtil(message);
 	   
     @Test(expectedExceptions = ArithmeticException.class)
     public void testPrintMessage() {	

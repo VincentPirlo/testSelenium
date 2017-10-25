@@ -12,13 +12,13 @@ package com.vincent.testng;
  * @author Vincent
  *
  */
-public class MessageUtil {
+public class ExceptionMessageUtil {
 
 	   private String message;
 
 	   //Constructor
 	   //@param message to be printed
-	   public MessageUtil(String message){
+	   public ExceptionMessageUtil(String message){
 	      this.message = message; 
 	   }
 
