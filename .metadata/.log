@@ -3573,3 +3573,501 @@ java -ea -classpath C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\o
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 12172 -protocol json -d D:\test-workspace\testTestNG\test-output D:\test-workspace\testTestNG\src\com\vincent\testng\ignoretest-testng.xml
 java -ea -classpath C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar:D:\test-workspace\testTestNG\bin:C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 12172 -protocol json -d D:\test-workspace\testTestNG\test-output D:\test-workspace\testTestNG\src\com\vincent\testng\ignoretest-testng.xml
+!SESSION 2017-10-29 18:22:53.011 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-29 18:23:01.709
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Vincent'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-10-29 20:32:33.343 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-29 20:32:40.449
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Vincent'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-10-29 20:37:06.664 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-29 20:37:13.881
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Vincent'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-10-29 21:27:33.722 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-29 21:27:40.862
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Vincent'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-11-08 22:21:09.134 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-08 22:21:17.183
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Vincent'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2017-11-08 22:21:20.551
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] failed: Read timed out. ; version: 2.0.5.v20170613-1207
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] failed: Read timed out
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:150)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:170)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:64)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 17 more
+!SESSION 2017-11-20 20:07:43.228 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-20 20:07:51.965
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Vincent'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2017-11-20 20:39:44.664
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at http://beust.com/eclipse/6.9.13/compositeContent.xml.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:243)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.getLocalFile(CompositeMetadataRepositoryFactory.java:73)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:98)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:158)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:271)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:209)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:686)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:488)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2017-11-20 20:39:44.666
+!MESSAGE Unable to read repository at http://beust.com/eclipse/6.9.13/compositeContent.xml.
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:158)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:271)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:209)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:686)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:488)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2017-11-20 20:39:44.667
+!MESSAGE Unable to read repository at http://beust.com/eclipse.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at http://beust.com/eclipse/6.9.13/compositeContent.xml.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:243)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.getLocalFile(CompositeMetadataRepositoryFactory.java:73)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:98)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:158)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:271)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:209)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:686)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:488)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2017-11-20 20:39:44.667
+!MESSAGE Unable to read repository at http://beust.com/eclipse/6.9.13/compositeContent.xml.
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:158)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:271)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:209)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:686)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:488)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SESSION 2017-11-21 20:50:17.034 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-21 20:50:25.310
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Vincent'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 11 2017-11-21 21:40:45.397
+!MESSAGE The model index service was accessed either before it started or after it finished running.
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:126)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelIndex.suggest(EclipseModelIndex.java:211)
+	at org.eclipse.recommenders.models.SimpleModelProvider.acquireModel(SimpleModelProvider.java:70)
+	at org.eclipse.recommenders.models.PoolingModelProvider.access$0(PoolingModelProvider.java:1)
+	at org.eclipse.recommenders.models.PoolingModelProvider$ModelPoolFactoryMediator.makeObject(PoolingModelProvider.java:96)
+	at org.eclipse.recommenders.models.PoolingModelProvider$ModelPoolFactoryMediator.makeObject(PoolingModelProvider.java:1)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.eclipse.recommenders.models.PoolingModelProvider.acquireModel(PoolingModelProvider.java:67)
+	at org.eclipse.recommenders.internal.calls.rcp.RcpCallModelProvider.acquireModel(RcpCallModelProvider.java:65)
+	at org.eclipse.recommenders.internal.calls.rcp.RcpCallModelProvider.acquireModel(RcpCallModelProvider.java:1)
+	at org.eclipse.recommenders.internal.models.rcp.PrefetchModelArchiveJob.run(PrefetchModelArchiveJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.testng.eclipse 1 0 2017-11-21 22:45:42.986
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] CssSelector.java [in com.vincent.selenium [in src [in testSelenium]]]
+  package com.vincent.selenium
+  import java.io.File
+  import org.openqa.selenium.WebDriver
+  import org.openqa.selenium.WebElement
+  import org.openqa.selenium.By
+  import org.openqa.selenium.chrome.ChromeDriver
+  import org.testng.Assert
+  import org.testng.annotations.Test
+  import org.testng.asserts.*
+  class CssSelector
+    static void main(String[])
+
+!ENTRY org.testng.eclipse 1 0 2017-11-21 22:45:43.254
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar D:\test-workspace\testSelenium\bin D:\test-workspace\jarsource\selenium-java-3.5.3\client-combined-3.5.3-nodeps.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cglib-nodep-3.2.4.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-codec-1.10.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-exec-1.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-io-2.5.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-lang3-3.5.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-logging-1.2.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cssparser-0.9.23.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\gson-2.8.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\guava-23.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\hamcrest-core-1.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-core-js-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-driver-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpclient-4.5.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpcore-4.4.6.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpmime-4.5.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\javax.servlet-api-3.1.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-client-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-http-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-io-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-util-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-4.1.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-platform-4.1.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\junit-4.12.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\neko-htmlunit-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\phantomjsdriver-1.4.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\sac-1.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\serializer-2.7.2.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-api-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-client-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-common-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xalan-2.7.2.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xercesImpl-2.11.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xml-apis-1.4.01.jar C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 7861 -protocol json -d D:\test-workspace\testSelenium\test-output C:\Users\Vincent\AppData\Local\Temp\testng-eclipse--991328621\testng-customsuite.xml
+java -ea -classpath C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar:D:\test-workspace\testSelenium\bin:D:\test-workspace\jarsource\selenium-java-3.5.3\client-combined-3.5.3-nodeps.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cglib-nodep-3.2.4.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-codec-1.10.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-exec-1.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-io-2.5.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-lang3-3.5.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-logging-1.2.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cssparser-0.9.23.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\gson-2.8.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\guava-23.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\hamcrest-core-1.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-core-js-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-driver-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpclient-4.5.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpcore-4.4.6.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpmime-4.5.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\javax.servlet-api-3.1.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-client-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-http-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-io-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-util-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-4.1.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-platform-4.1.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\junit-4.12.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\neko-htmlunit-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\phantomjsdriver-1.4.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\sac-1.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\serializer-2.7.2.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-api-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-client-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-common-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xalan-2.7.2.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xercesImpl-2.11.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xml-apis-1.4.01.jar:C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 7861 -protocol json -d D:\test-workspace\testSelenium\test-output C:\Users\Vincent\AppData\Local\Temp\testng-eclipse--991328621\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-11-21 22:45:59.163
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] IgnoreTest.java [in com.vincent.testng [in src [in testTestNG]]]
+  package com.vincent.testng
+  import org.testng.Assert
+  import org.testng.annotations.Test
+  class IgnoreTest
+    String message
+    IgnoreMessageUtil messageUtil
+    void testPrintMessage()
+    void testSalutationMessage()
+
+!ENTRY org.testng.eclipse 1 0 2017-11-21 22:45:59.272
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar D:\test-workspace\testTestNG\bin C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 7866 -protocol json -d D:\test-workspace\testTestNG\test-output C:\Users\Vincent\AppData\Local\Temp\testng-eclipse-1531885315\testng-customsuite.xml
+java -ea -classpath C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar:D:\test-workspace\testTestNG\bin:C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 7866 -protocol json -d D:\test-workspace\testTestNG\test-output C:\Users\Vincent\AppData\Local\Temp\testng-eclipse-1531885315\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-11-21 22:47:58.891
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] CssSelector.java [in com.vincent.selenium [in src [in testSelenium]]]
+  package com.vincent.selenium
+  import java.io.File
+  import org.openqa.selenium.WebDriver
+  import org.openqa.selenium.WebElement
+  import org.openqa.selenium.By
+  import org.openqa.selenium.chrome.ChromeDriver
+  import org.testng.Assert
+  import org.testng.annotations.Test
+  import org.testng.asserts.*
+  class CssSelector
+    void csstest()
+
+!ENTRY org.testng.eclipse 1 0 2017-11-21 22:47:59.003
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar D:\test-workspace\testSelenium\bin D:\test-workspace\jarsource\selenium-java-3.5.3\client-combined-3.5.3-nodeps.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cglib-nodep-3.2.4.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-codec-1.10.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-exec-1.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-io-2.5.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-lang3-3.5.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-logging-1.2.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cssparser-0.9.23.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\gson-2.8.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\guava-23.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\hamcrest-core-1.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-core-js-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-driver-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpclient-4.5.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpcore-4.4.6.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpmime-4.5.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\javax.servlet-api-3.1.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-client-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-http-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-io-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-util-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-4.1.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-platform-4.1.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\junit-4.12.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\neko-htmlunit-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\phantomjsdriver-1.4.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\sac-1.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\serializer-2.7.2.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-api-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-client-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-common-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xalan-2.7.2.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xercesImpl-2.11.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xml-apis-1.4.01.jar C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 7881 -protocol json -d D:\test-workspace\testSelenium\test-output C:\Users\Vincent\AppData\Local\Temp\testng-eclipse-1789818675\testng-customsuite.xml
+java -ea -classpath C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar:D:\test-workspace\testSelenium\bin:D:\test-workspace\jarsource\selenium-java-3.5.3\client-combined-3.5.3-nodeps.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cglib-nodep-3.2.4.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-codec-1.10.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-exec-1.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-io-2.5.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-lang3-3.5.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-logging-1.2.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cssparser-0.9.23.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\gson-2.8.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\guava-23.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\hamcrest-core-1.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-core-js-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-driver-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpclient-4.5.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpcore-4.4.6.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpmime-4.5.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\javax.servlet-api-3.1.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-client-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-http-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-io-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-util-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-4.1.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-platform-4.1.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\junit-4.12.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\neko-htmlunit-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\phantomjsdriver-1.4.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\sac-1.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\serializer-2.7.2.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-api-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-client-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-common-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xalan-2.7.2.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xercesImpl-2.11.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xml-apis-1.4.01.jar:C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 7881 -protocol json -d D:\test-workspace\testSelenium\test-output C:\Users\Vincent\AppData\Local\Temp\testng-eclipse-1789818675\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-11-21 22:49:04.674
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] CssSelector.java [in com.vincent.selenium [in src [in testSelenium]]]
+  package com.vincent.selenium
+  import java.io.File
+  import org.openqa.selenium.WebDriver
+  import org.openqa.selenium.WebElement
+  import org.openqa.selenium.By
+  import org.openqa.selenium.chrome.ChromeDriver
+  import org.testng.Assert
+  import org.testng.annotations.Test
+  import org.testng.asserts.*
+  class CssSelector
+    void csstest()
+
+!ENTRY org.testng.eclipse 1 0 2017-11-21 22:49:04.793
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar D:\test-workspace\testSelenium\bin D:\test-workspace\jarsource\selenium-java-3.5.3\client-combined-3.5.3-nodeps.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cglib-nodep-3.2.4.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-codec-1.10.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-exec-1.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-io-2.5.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-lang3-3.5.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-logging-1.2.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cssparser-0.9.23.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\gson-2.8.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\guava-23.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\hamcrest-core-1.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-core-js-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-driver-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpclient-4.5.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpcore-4.4.6.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpmime-4.5.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\javax.servlet-api-3.1.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-client-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-http-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-io-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-util-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-4.1.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-platform-4.1.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\junit-4.12.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\neko-htmlunit-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\phantomjsdriver-1.4.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\sac-1.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\serializer-2.7.2.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-api-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-client-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-common-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xalan-2.7.2.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xercesImpl-2.11.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xml-apis-1.4.01.jar C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 7927 -protocol json -d D:\test-workspace\testSelenium\test-output C:\Users\Vincent\AppData\Local\Temp\testng-eclipse-940585907\testng-customsuite.xml
+java -ea -classpath C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar:D:\test-workspace\testSelenium\bin:D:\test-workspace\jarsource\selenium-java-3.5.3\client-combined-3.5.3-nodeps.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cglib-nodep-3.2.4.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-codec-1.10.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-exec-1.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-io-2.5.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-lang3-3.5.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-logging-1.2.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cssparser-0.9.23.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\gson-2.8.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\guava-23.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\hamcrest-core-1.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-core-js-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-driver-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpclient-4.5.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpcore-4.4.6.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpmime-4.5.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\javax.servlet-api-3.1.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-client-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-http-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-io-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-util-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-4.1.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-platform-4.1.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\junit-4.12.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\neko-htmlunit-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\phantomjsdriver-1.4.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\sac-1.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\serializer-2.7.2.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-api-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-client-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-common-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xalan-2.7.2.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xercesImpl-2.11.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xml-apis-1.4.01.jar:C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 7927 -protocol json -d D:\test-workspace\testSelenium\test-output C:\Users\Vincent\AppData\Local\Temp\testng-eclipse-940585907\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-11-21 22:55:04.476
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] CssSelector.java [in com.vincent.selenium [in src [in testSelenium]]]
+  package com.vincent.selenium
+  import java.io.File
+  import org.openqa.selenium.WebDriver
+  import org.openqa.selenium.WebElement
+  import org.openqa.selenium.By
+  import org.openqa.selenium.chrome.ChromeDriver
+  import org.testng.Assert
+  import org.testng.annotations.Test
+  import org.testng.asserts.*
+  class CssSelector
+    void csstest()
+
+!ENTRY org.testng.eclipse 1 0 2017-11-21 22:55:04.603
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar D:\test-workspace\testSelenium\bin D:\test-workspace\jarsource\selenium-java-3.5.3\client-combined-3.5.3-nodeps.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cglib-nodep-3.2.4.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-codec-1.10.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-exec-1.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-io-2.5.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-lang3-3.5.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-logging-1.2.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cssparser-0.9.23.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\gson-2.8.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\guava-23.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\hamcrest-core-1.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-core-js-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-driver-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpclient-4.5.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpcore-4.4.6.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpmime-4.5.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\javax.servlet-api-3.1.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-client-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-http-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-io-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-util-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-4.1.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-platform-4.1.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\junit-4.12.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\neko-htmlunit-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\phantomjsdriver-1.4.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\sac-1.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\serializer-2.7.2.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-api-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-client-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-common-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xalan-2.7.2.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xercesImpl-2.11.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xml-apis-1.4.01.jar C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 7996 -protocol json -d D:\test-workspace\testSelenium\test-output C:\Users\Vincent\AppData\Local\Temp\testng-eclipse-1736581596\testng-customsuite.xml
+java -ea -classpath C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar:D:\test-workspace\testSelenium\bin:D:\test-workspace\jarsource\selenium-java-3.5.3\client-combined-3.5.3-nodeps.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cglib-nodep-3.2.4.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-codec-1.10.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-exec-1.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-io-2.5.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-lang3-3.5.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-logging-1.2.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cssparser-0.9.23.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\gson-2.8.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\guava-23.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\hamcrest-core-1.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-core-js-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-driver-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpclient-4.5.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpcore-4.4.6.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpmime-4.5.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\javax.servlet-api-3.1.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-client-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-http-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-io-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-util-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-4.1.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-platform-4.1.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\junit-4.12.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\neko-htmlunit-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\phantomjsdriver-1.4.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\sac-1.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\serializer-2.7.2.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-api-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-client-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-common-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xalan-2.7.2.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xercesImpl-2.11.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xml-apis-1.4.01.jar:C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 7996 -protocol json -d D:\test-workspace\testSelenium\test-output C:\Users\Vincent\AppData\Local\Temp\testng-eclipse-1736581596\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-11-21 22:56:49.939
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] CssSelector.java [in com.vincent.selenium [in src [in testSelenium]]]
+  package com.vincent.selenium
+  import java.io.File
+  import org.openqa.selenium.WebDriver
+  import org.openqa.selenium.WebElement
+  import org.openqa.selenium.By
+  import org.openqa.selenium.chrome.ChromeDriver
+  import org.testng.Assert
+  import org.testng.annotations.Test
+  import org.testng.asserts.*
+  class CssSelector
+    void csstest()
+
+!ENTRY org.testng.eclipse 1 0 2017-11-21 22:56:50.132
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar D:\test-workspace\testSelenium\bin D:\test-workspace\jarsource\selenium-java-3.5.3\client-combined-3.5.3-nodeps.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cglib-nodep-3.2.4.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-codec-1.10.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-exec-1.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-io-2.5.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-lang3-3.5.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-logging-1.2.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cssparser-0.9.23.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\gson-2.8.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\guava-23.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\hamcrest-core-1.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-core-js-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-driver-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpclient-4.5.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpcore-4.4.6.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpmime-4.5.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\javax.servlet-api-3.1.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-client-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-http-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-io-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-util-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-4.1.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-platform-4.1.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\junit-4.12.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\neko-htmlunit-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\phantomjsdriver-1.4.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\sac-1.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\serializer-2.7.2.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-api-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-client-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-common-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xalan-2.7.2.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xercesImpl-2.11.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xml-apis-1.4.01.jar C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 8041 -protocol json -d D:\test-workspace\testSelenium\test-output C:\Users\Vincent\AppData\Local\Temp\testng-eclipse-1542972990\testng-customsuite.xml
+java -ea -classpath C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar:D:\test-workspace\testSelenium\bin:D:\test-workspace\jarsource\selenium-java-3.5.3\client-combined-3.5.3-nodeps.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cglib-nodep-3.2.4.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-codec-1.10.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-exec-1.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-io-2.5.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-lang3-3.5.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-logging-1.2.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cssparser-0.9.23.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\gson-2.8.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\guava-23.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\hamcrest-core-1.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-core-js-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-driver-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpclient-4.5.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpcore-4.4.6.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpmime-4.5.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\javax.servlet-api-3.1.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-client-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-http-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-io-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-util-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-4.1.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-platform-4.1.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\junit-4.12.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\neko-htmlunit-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\phantomjsdriver-1.4.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\sac-1.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\serializer-2.7.2.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-api-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-client-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-common-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xalan-2.7.2.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xercesImpl-2.11.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xml-apis-1.4.01.jar:C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 8041 -protocol json -d D:\test-workspace\testSelenium\test-output C:\Users\Vincent\AppData\Local\Temp\testng-eclipse-1542972990\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-11-21 22:58:30.899
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] CssSelector.java [in com.vincent.selenium [in src [in testSelenium]]]
+  package com.vincent.selenium
+  import java.io.File
+  import org.openqa.selenium.WebDriver
+  import org.openqa.selenium.WebElement
+  import org.openqa.selenium.By
+  import org.openqa.selenium.chrome.ChromeDriver
+  import org.testng.Assert
+  import org.testng.annotations.Test
+  import org.testng.asserts.*
+  class CssSelector
+    void csstest()
+
+!ENTRY org.testng.eclipse 1 0 2017-11-21 22:58:31.030
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar D:\test-workspace\testSelenium\bin D:\test-workspace\jarsource\selenium-java-3.5.3\client-combined-3.5.3-nodeps.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cglib-nodep-3.2.4.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-codec-1.10.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-exec-1.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-io-2.5.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-lang3-3.5.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-logging-1.2.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cssparser-0.9.23.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\gson-2.8.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\guava-23.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\hamcrest-core-1.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-core-js-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-driver-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpclient-4.5.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpcore-4.4.6.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpmime-4.5.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\javax.servlet-api-3.1.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-client-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-http-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-io-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-util-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-4.1.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-platform-4.1.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\junit-4.12.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\neko-htmlunit-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\phantomjsdriver-1.4.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\sac-1.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\serializer-2.7.2.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-api-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-client-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-common-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xalan-2.7.2.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xercesImpl-2.11.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xml-apis-1.4.01.jar C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 8072 -protocol json -d D:\test-workspace\testSelenium\test-output C:\Users\Vincent\AppData\Local\Temp\testng-eclipse--1986958606\testng-customsuite.xml
+java -ea -classpath C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar:D:\test-workspace\testSelenium\bin:D:\test-workspace\jarsource\selenium-java-3.5.3\client-combined-3.5.3-nodeps.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cglib-nodep-3.2.4.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-codec-1.10.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-exec-1.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-io-2.5.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-lang3-3.5.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-logging-1.2.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cssparser-0.9.23.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\gson-2.8.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\guava-23.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\hamcrest-core-1.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-core-js-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-driver-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpclient-4.5.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpcore-4.4.6.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpmime-4.5.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\javax.servlet-api-3.1.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-client-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-http-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-io-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-util-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-4.1.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-platform-4.1.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\junit-4.12.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\neko-htmlunit-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\phantomjsdriver-1.4.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\sac-1.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\serializer-2.7.2.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-api-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-client-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-common-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xalan-2.7.2.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xercesImpl-2.11.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xml-apis-1.4.01.jar:C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 8072 -protocol json -d D:\test-workspace\testSelenium\test-output C:\Users\Vincent\AppData\Local\Temp\testng-eclipse--1986958606\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-11-21 22:59:06.301
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] CssSelector.java [in com.vincent.selenium [in src [in testSelenium]]]
+  package com.vincent.selenium
+  import java.io.File
+  import org.openqa.selenium.WebDriver
+  import org.openqa.selenium.WebElement
+  import org.openqa.selenium.By
+  import org.openqa.selenium.chrome.ChromeDriver
+  import org.testng.Assert
+  import org.testng.annotations.Test
+  import org.testng.asserts.*
+  class CssSelector
+    void csstest()
+
+!ENTRY org.testng.eclipse 1 0 2017-11-21 22:59:06.454
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar D:\test-workspace\testSelenium\bin D:\test-workspace\jarsource\selenium-java-3.5.3\client-combined-3.5.3-nodeps.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cglib-nodep-3.2.4.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-codec-1.10.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-exec-1.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-io-2.5.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-lang3-3.5.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-logging-1.2.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cssparser-0.9.23.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\gson-2.8.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\guava-23.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\hamcrest-core-1.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-core-js-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-driver-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpclient-4.5.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpcore-4.4.6.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpmime-4.5.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\javax.servlet-api-3.1.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-client-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-http-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-io-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-util-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-4.1.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-platform-4.1.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\junit-4.12.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\neko-htmlunit-2.27.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\phantomjsdriver-1.4.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\sac-1.3.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\serializer-2.7.2.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-api-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-client-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-common-9.4.5.v20170502.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xalan-2.7.2.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xercesImpl-2.11.0.jar D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xml-apis-1.4.01.jar C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 8090 -protocol json -d D:\test-workspace\testSelenium\test-output C:\Users\Vincent\AppData\Local\Temp\testng-eclipse--1451342165\testng-customsuite.xml
+java -ea -classpath C:\Users\Vincent\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\496\0\.cp\lib\testng-remote.jar:D:\test-workspace\testSelenium\bin:D:\test-workspace\jarsource\selenium-java-3.5.3\client-combined-3.5.3-nodeps.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cglib-nodep-3.2.4.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-codec-1.10.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-exec-1.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-io-2.5.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-lang3-3.5.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\commons-logging-1.2.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\cssparser-0.9.23.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\gson-2.8.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\guava-23.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\hamcrest-core-1.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-core-js-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\htmlunit-driver-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpclient-4.5.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpcore-4.4.6.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\httpmime-4.5.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\javax.servlet-api-3.1.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-client-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-http-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-io-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jetty-util-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-4.1.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\jna-platform-4.1.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\junit-4.12.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\neko-htmlunit-2.27.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\phantomjsdriver-1.4.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\sac-1.3.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\serializer-2.7.2.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-api-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-client-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\websocket-common-9.4.5.v20170502.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xalan-2.7.2.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xercesImpl-2.11.0.jar:D:\test-workspace\jarsource\selenium-java-3.5.3\lib\xml-apis-1.4.01.jar:C:\Users\Vincent\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vincent\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vincent\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vincent\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 8090 -protocol json -d D:\test-workspace\testSelenium\test-output C:\Users\Vincent\AppData\Local\Temp\testng-eclipse--1451342165\testng-customsuite.xml

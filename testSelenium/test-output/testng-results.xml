@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4721" started-at="2017-11-21T14:59:06Z" finished-at="2017-11-21T14:59:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4721" started-at="2017-11-21T14:59:06Z" finished-at="2017-11-21T14:59:11Z">
+      <class name="com.vincent.selenium.CssSelector">
+        <test-method status="PASS" signature="csstest()[pri:0, instance:com.vincent.selenium.CssSelector@68c4039c]" name="csstest" duration-ms="4708" started-at="2017-11-21T22:59:06Z" finished-at="2017-11-21T22:59:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- csstest -->
+      </class> <!-- com.vincent.selenium.CssSelector -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

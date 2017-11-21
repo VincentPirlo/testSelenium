@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="18" started-at="2017-10-25T15:05:43Z" finished-at="2017-10-25T15:05:43Z">
+  <suite name="Default suite" duration-ms="19" started-at="2017-11-21T14:45:59Z" finished-at="2017-11-21T14:45:59Z">
     <groups>
     </groups>
-    <test name="test1" duration-ms="18" started-at="2017-10-25T15:05:43Z" finished-at="2017-10-25T15:05:43Z">
+    <test name="Default test" duration-ms="19" started-at="2017-11-21T14:45:59Z" finished-at="2017-11-21T14:45:59Z">
       <class name="com.vincent.testng.IgnoreTest">
-        <test-method status="PASS" signature="testSalutationMessage()[pri:0, instance:com.vincent.testng.IgnoreTest@6d78f375]" name="testSalutationMessage" duration-ms="7" started-at="2017-10-25T23:05:43Z" finished-at="2017-10-25T23:05:43Z">
+        <test-method status="PASS" signature="testSalutationMessage()[pri:0, instance:com.vincent.testng.IgnoreTest@6d78f375]" name="testSalutationMessage" duration-ms="7" started-at="2017-11-21T22:45:59Z" finished-at="2017-11-21T22:45:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSalutationMessage -->
       </class> <!-- com.vincent.testng.IgnoreTest -->
-    </test> <!-- test1 -->
-  </suite> <!-- Suite1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
