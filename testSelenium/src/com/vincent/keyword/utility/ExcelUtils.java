@@ -52,12 +52,14 @@ public class ExcelUtils {
 		fileOut.close();
 	}
 	
+	//获取单元格的值
 	public static String getCellData(int RowNum, int ColNum) {
 		Cell = ExcelSheet.getRow(RowNum).getCell(ColNum);
 		String cellData = Cell.getStringCellValue();
 		return cellData;
 	}
 	
+	//获取最后一行的数量
 	public static int getLastRowNums(String SheetName) {
 		try {
 			ExcelSheet = ExcelBook.getSheet(SheetName);
