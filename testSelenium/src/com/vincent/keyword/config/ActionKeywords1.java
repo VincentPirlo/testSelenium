@@ -37,6 +37,7 @@ public class ActionKeywords1 {
 	
 	//µã»÷µÇÂ¼
 	public static void Login_Click(String OR) {
+//		System.out.println(OrpUtil.readValue(OR));
 		driver.findElement(By.xpath(OrpUtil.readValue(OR))).click();
 	}
 	
@@ -68,8 +69,7 @@ public class ActionKeywords1 {
 	}
 	
 	//¹Ø±Õä¯ÀÀÆ÷
-	public static String CloseBrowser(String OR) {
-		//driver.quit();
-		return OR;
+	public static void CloseBrowser(String OR) {
+		driver.quit();
 	}
 }

@@ -50,6 +50,27 @@ public class Contants {
 	public static String pass = "PASS";
 	
 	//登录的用户名和密码
-	public static String userName="xxxxx";
-	public static String userPassword = "yyyyyyy";
+	public static String userName="787878";
+	public static String userPassword = "cccccc";
+//	public static void main(String args[]) {
+//		System.out.println(url);
+//		System.out.println(baseUrl);
+//		System.out.println(driverPath);
+//		System.out.println(excelFile);
+//		System.out.println(excelName);
+//		System.out.println(ObjectReUrl);
+//		System.out.println(excelSheet);
+//		System.out.println(suiteSheet);
+//		System.out.println(suiteTestSuiteId);
+//		System.out.println(suiteRunmode);
+//		System.out.println(suiteResult);
+//		System.out.println(stepTestSuiteId);
+//		System.out.println(excelPOColNum);
+//		System.out.println(excelKWColNum);
+//		System.out.println(caseResult);
+//		System.out.println(fail);
+//		System.out.println(pass);
+//		System.out.println(userName);
+//		System.out.println(userPassword);
+//	}
 }

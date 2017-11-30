@@ -24,11 +24,13 @@ public class OrpUtil {
 	public static String readValue(String a) {
 		Properties pro = new Properties();
 		String repopath = Contants.ObjectReUrl;
+//		System.out.println(repopath);
 		String value = null;
 		try {
 			InputStream in = new BufferedInputStream(new FileInputStream(repopath));
 			pro.load(in);
 			value = pro.getProperty(a);
+//			System.out.println(value);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
@@ -36,4 +38,7 @@ public class OrpUtil {
 		}
 		return value;
 	}
+//	public static void main(String[] args) {
+//		System.out.println(readValue("Userbar_login"));
+//	}
 }
