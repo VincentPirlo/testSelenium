@@ -25,7 +25,7 @@ public class ActionKeywords1 {
 	
 	//启动浏览器并最大化
 	public static void OpenBrowser(String OR) {
-		System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Google\\Chrome\\Application\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 	}

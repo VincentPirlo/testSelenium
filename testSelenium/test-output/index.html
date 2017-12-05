@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Vincent\AppData\Local\Temp\testng-eclipse--1451342165\testng-customsuite.xml</span>
+                    <span>C:\Users\Administrator\AppData\Local\Temp\testng-eclipse-796047149\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.vincent.selenium.CssSelector" hash-for-method="csstest">csstest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.vincent.selenium.DataProviderDemo" hash-for-method="testSearch(老九门, 演员, 赵丽颖)">testSearch(老九门, 演员, 赵丽颖)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.vincent.selenium.DataProviderDemo" hash-for-method="testSearch(X站警天启, 导演, 布莱恩·辛格)">testSearch(X站警天启, 导演, 布莱恩·辛格)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.vincent.selenium.DataProviderDemo" hash-for-method="testSearch(诛仙青云志, 编剧, 张戬)">testSearch(诛仙青云志, 编剧, 张戬)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -120,14 +130,31 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.vincent.selenium.CssSelector</span>
+              <span class="class-name">com.vincent.selenium.DataProviderDemo</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="csstest">
-                  </a> <!-- csstest -->
-                  <span class="method-name">csstest</span>
+                  <a name="testSearch(老九门, 演员, 赵丽颖)">
+                  </a> <!-- testSearch(老九门, 演员, 赵丽颖) -->
+                  <span class="method-name">testSearch</span>
+                  <span class="parameters">(老九门, 演员, 赵丽颖)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch(X站警天启, 导演, 布莱恩·辛格)">
+                  </a> <!-- testSearch(X站警天启, 导演, 布莱恩·辛格) -->
+                  <span class="method-name">testSearch</span>
+                  <span class="parameters">(X站警天启, 导演, 布莱恩·辛格)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch(诛仙青云志, 编剧, 张戬)">
+                  </a> <!-- testSearch(诛仙青云志, 编剧, 张戬) -->
+                  <span class="method-name">testSearch</span>
+                  <span class="parameters">(诛仙青云志, 编剧, 张戬)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +162,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Vincent\AppData\Local\Temp\testng-eclipse--1451342165\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Administrator\AppData\Local\Temp\testng-eclipse-796047149\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -144,7 +171,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.vincent.selenium.CssSelector&quot;/&gt;
+      &lt;class name=&quot;com.vincent.selenium.DataProviderDemo&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -184,16 +211,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'csstest')
-data.setCell(0, 2, 'com.vincent.selenium.CssSelector')
-data.setCell(0, 3, 4708);
+data.setCell(0, 1, 'testSearch')
+data.setCell(0, 2, 'com.vincent.selenium.DataProviderDemo')
+data.setCell(0, 3, 7268);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSearch')
+data.setCell(1, 2, 'com.vincent.selenium.DataProviderDemo')
+data.setCell(1, 3, 4780);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSearch')
+data.setCell(2, 2, 'com.vincent.selenium.DataProviderDemo')
+data.setCell(2, 3, 4766);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -219,11 +254,43 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.vincent.selenium.CssSelector</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">csstest</span>
+              <div class="chronological-class-name">com.vincent.selenium.DataProviderDemo</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearch(老九门, 演员, 赵丽颖)</span>
+                <span class="method-start">11869 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">19138 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">20011 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearch(X站警天启, 导演, 布莱恩·辛格)</span>
+                <span class="method-start">22123 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">26890 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">27754 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearch(诛仙青云志, 编剧, 张戬)</span>
+                <span class="method-start">29824 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">34605 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

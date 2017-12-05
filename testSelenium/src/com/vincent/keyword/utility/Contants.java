@@ -50,8 +50,8 @@ public class Contants {
 	public static String pass = "PASS";
 	
 	//登录的用户名和密码
-	public static String userName="787878";
-	public static String userPassword = "cccccc";
+	public static String userName="sxtqlcs78@163.com";//"787878";
+	public static String userPassword = "cc19871209@";//"cccccc";
 //	public static void main(String args[]) {
 //		System.out.println(url);
 //		System.out.println(baseUrl);
