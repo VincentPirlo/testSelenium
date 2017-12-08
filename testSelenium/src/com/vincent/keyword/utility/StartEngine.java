@@ -30,6 +30,7 @@ public class StartEngine {
 			int sRowNum;
 			
 			if(Runmode.equals("YES")) {
+				System.out.println("用例" + suiteTestSuiteId + "开始执行...");
 //				System.out.println(ExcelUtils2.getLastRowNums(Contants.caseSheet));
 				for(sRowNum=1; sRowNum<=ExcelUtils2.getLastRowNums(Contants.caseSheet); sRowNum++) {
 					String stepTestSuiteId = ExcelUtils2.getCellData(sRowNum, Contants.suiteTestSuiteId, Contants.caseSheet);
@@ -46,9 +47,10 @@ public class StartEngine {
 				if(bResult == true) {
 					ExcelUtils2.setCellData(Contants.pass, j, Contants.suiteResult, Contants.excelFile+ "\\" +Contants.excelName2, Contants.caseSheet);
 				}
+				System.out.println("用例" + suiteTestSuiteId + "执行完毕!");
 			}
 			else {
-				System.out.println("没有要执行的用例");
+				System.out.println("没有更多的用例需要执行");
 				break;
 			}
 			

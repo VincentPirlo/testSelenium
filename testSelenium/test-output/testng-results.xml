@@ -1,17 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4721" started-at="2017-11-21T14:59:06Z" finished-at="2017-11-21T14:59:11Z">
+  <suite name="Default suite" duration-ms="35426" started-at="2017-12-05T11:44:26Z" finished-at="2017-12-05T11:45:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4721" started-at="2017-11-21T14:59:06Z" finished-at="2017-11-21T14:59:11Z">
-      <class name="com.vincent.selenium.CssSelector">
-        <test-method status="PASS" signature="csstest()[pri:0, instance:com.vincent.selenium.CssSelector@68c4039c]" name="csstest" duration-ms="4708" started-at="2017-11-21T22:59:06Z" finished-at="2017-11-21T22:59:11Z">
+    <test name="Default test" duration-ms="35426" started-at="2017-12-05T11:44:26Z" finished-at="2017-12-05T11:45:01Z">
+      <class name="com.vincent.selenium.DataProviderDemo">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vincent.selenium.DataProviderDemo@6ba0ac]" name="beforeMethod" is-config="true" duration-ms="11868" started-at="2017-12-05T19:44:26Z" finished-at="2017-12-05T19:44:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- csstest -->
-      </class> <!-- com.vincent.selenium.CssSelector -->
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vincent.selenium.DataProviderDemo@6ba0ac]" name="testSearch" duration-ms="7268" started-at="2017-12-05T19:44:38Z" data-provider="searchData" finished-at="2017-12-05T19:44:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[老九门]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[演员]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[赵丽颖]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vincent.selenium.DataProviderDemo@6ba0ac]" name="afterMethod" is-config="true" duration-ms="872" started-at="2017-12-05T19:44:45Z" finished-at="2017-12-05T19:44:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vincent.selenium.DataProviderDemo@6ba0ac]" name="beforeMethod" is-config="true" duration-ms="2112" started-at="2017-12-05T19:44:46Z" finished-at="2017-12-05T19:44:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vincent.selenium.DataProviderDemo@6ba0ac]" name="testSearch" duration-ms="4766" started-at="2017-12-05T19:44:48Z" data-provider="searchData" finished-at="2017-12-05T19:44:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[X站警天启]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[导演]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[布莱恩·辛格]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vincent.selenium.DataProviderDemo@6ba0ac]" name="afterMethod" is-config="true" duration-ms="864" started-at="2017-12-05T19:44:53Z" finished-at="2017-12-05T19:44:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vincent.selenium.DataProviderDemo@6ba0ac]" name="beforeMethod" is-config="true" duration-ms="2070" started-at="2017-12-05T19:44:54Z" finished-at="2017-12-05T19:44:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vincent.selenium.DataProviderDemo@6ba0ac]" name="testSearch" duration-ms="4780" started-at="2017-12-05T19:44:56Z" data-provider="searchData" finished-at="2017-12-05T19:45:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[诛仙青云志]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[编剧]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[张戬]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vincent.selenium.DataProviderDemo@6ba0ac]" name="afterMethod" is-config="true" duration-ms="786" started-at="2017-12-05T19:45:01Z" finished-at="2017-12-05T19:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.vincent.selenium.DataProviderDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

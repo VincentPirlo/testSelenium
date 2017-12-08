@@ -52,6 +52,7 @@ public class Contants {
 	public static String pass = "PASS";
 	
 	//登录的用户名和密码
-	public static String userName="ssssssss";
-	public static String userPassword = "ccccccccccc";
+
+	public static String userName = "sxtqlcs78@163.com";//"ssssssss";
+	public static String userPassword = "cc19871209@";//"cccccc";
 }

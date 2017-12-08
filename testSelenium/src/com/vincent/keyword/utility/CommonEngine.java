@@ -21,7 +21,7 @@ public class CommonEngine {
 		Method[] method = actionkeywords.getClass().getDeclaredMethods();
 		for(int i=0; i<method.length; i++) {
 			if(method[i].getName().trim().equals(keywords)) {
-				System.out.println(method[i].getName() + "#####" + actionkeywords + keywords + "#####" + r);
+//				System.out.println(method[i].getName() + "#####" + actionkeywords + keywords + "#####" + r);
 				try {
 					method[i].invoke(actionkeywords, r);
 				} catch (Exception e) {
