@@ -24,12 +24,14 @@ public class Contants {
 	//Excel的路径和名称
 	public static String excelFile = baseUrl+"\\src\\com\\vincent\\keyword";
 	public static String excelName = "TestData1.xlsx";
+	public static String excelName2 = "TestData2.xlsx";
 	
 	//对象仓库文件路径
 	public static String ObjectReUrl = baseUrl+"\\src\\com\\vincent\\keyword\\ObjectReposity";
 	
 	//用例sheet页
 	public static String excelSheet = "Test Steps";
+	public static String caseSheet = "Test Steps";
 	
 	//用例场景的sheet页
 	public static String suiteSheet = "Suite";
@@ -50,27 +52,6 @@ public class Contants {
 	public static String pass = "PASS";
 	
 	//登录的用户名和密码
-	public static String userName="787878";
-	public static String userPassword = "cccccc";
-//	public static void main(String args[]) {
-//		System.out.println(url);
-//		System.out.println(baseUrl);
-//		System.out.println(driverPath);
-//		System.out.println(excelFile);
-//		System.out.println(excelName);
-//		System.out.println(ObjectReUrl);
-//		System.out.println(excelSheet);
-//		System.out.println(suiteSheet);
-//		System.out.println(suiteTestSuiteId);
-//		System.out.println(suiteRunmode);
-//		System.out.println(suiteResult);
-//		System.out.println(stepTestSuiteId);
-//		System.out.println(excelPOColNum);
-//		System.out.println(excelKWColNum);
-//		System.out.println(caseResult);
-//		System.out.println(fail);
-//		System.out.println(pass);
-//		System.out.println(userName);
-//		System.out.println(userPassword);
-//	}
+	public static String userName="ssssssss";
+	public static String userPassword = "ccccccccccc";
 }

@@ -20,21 +20,8 @@ import com.vincent.keyword.utility.ExcelUtils;
  * @date: 2017年11月28日下午9:06:20
  */
 public class Login_Script1 {
-/*	public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
-		Class<ActionKeywords1> clz = ActionKeywords1.class;
-		Method[] method = clz.getDeclaredMethods();
-		for(Method m: method) {
-			System.out.println(m);
-		}
-		
-		Method method1 = clz.getMethod("CloseBrowser",String.class);
-		String str = (String)method1.invoke(new ActionKeywords1(), "haha");
-		System.out.println(str);
-		
-	}
-*/	
-
-public static ActionKeywords1 actionKeywords;
+	
+	public static ActionKeywords1 actionKeywords;
 	public static String Keywords = null;
 	public static String Pageobject = null;
 	public static Method[] method;
@@ -51,6 +38,7 @@ public static ActionKeywords1 actionKeywords;
 			Keywords = ExcelUtils.getCellData(RowNum, 5);
 			Pageobject = ExcelUtils.getCellData(RowNum, 4);
 //			System.out.println(Keywords);
+//			System.out.println("aaa is: "+Pageobject);
 			login_action();
 		}
 	}
