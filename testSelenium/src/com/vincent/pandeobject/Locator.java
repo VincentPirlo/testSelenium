@@ -23,7 +23,7 @@ public class Locator {
 	 * @date: 2017年12月10日下午9:01:44
 	 */
 	public enum ByType {
-		xpath, id, linkText, name, className, cssSelector, partialLink, tagName
+		xpath, id, linkText, name, className, cssSelector, partialLinkText, tagName
 	}
 	
 	private ByType byType;
@@ -40,6 +40,18 @@ public class Locator {
 		this.element = element;
 		this.waitSec = 3;
 		this.byType = ByType.xpath;
+	}
+	
+	public Locator(String element, int waitSec) {
+		this.waitSec = waitSec;
+		this.element = element;
+		this.byType = ByType.xpath;
+	}
+	
+	public Locator(String element, int waitSec, ByType byType) {
+		this.waitSec = waitSec;
+		this.element = element;
+		this.byType = byType;
 	}
 	
 	public String getElement() {
