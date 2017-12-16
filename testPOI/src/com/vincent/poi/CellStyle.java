@@ -2,6 +2,7 @@ package com.vincent.poi;
 
 import java.io.File;
 import java.io.FileOutputStream;
+
 import org.apache.poi.hssf.util.HSSFColor;
 import org.apache.poi.ss.usermodel.IndexedColors;
 import org.apache.poi.ss.util.CellRangeAddress;
@@ -10,16 +11,21 @@ import org.apache.poi.xssf.usermodel.XSSFCellStyle;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-public class CellStyle 
-{
-   public static void main(String[] args)throws Exception 
-   {
+
+/**
+ * @Function: 创建工作簿，并设置单元格风格
+ * @author: Vincent
+ * @date: 2017年12月16日下午5:54:53
+ */
+public class CellStyle {
+   public static void main(String[] args) throws Exception {
       XSSFWorkbook workbook = new XSSFWorkbook(); 
       XSSFSheet spreadsheet = workbook.createSheet("cellstyle");
       XSSFRow row = spreadsheet.createRow((short) 1);
       row.setHeight((short) 800);
       XSSFCell cell = (XSSFCell) row.createCell((short) 1);
       cell.setCellValue("test of merging");
+      
       //MEARGING CELLS 
       //this statement for merging cells
       spreadsheet.addMergedRegion(new CellRangeAddress(

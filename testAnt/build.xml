@@ -1,33 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<project name="HelloWorld" default="run" basedir="."><!-- 项目名为HelloWorld，default代表默认要做的事情，.代表当前目录--> 
-<property name="src" value="src"/><!-- 定义src变量 --> 
-<property name="dest" value="classes"/> <!-- 定义dest变量--> 
-<property name="hello_jar" value="hello.jar"/><!-- 定义hello_jar变量--> 
-<target name="init"> <!-- 定义一个目标，这里表示初始化，mkdir表示创建一个目录，${dest}表示取变量dest的值 --> 
-    <mkdir dir="${dest}"/> 
-</target> 
-<!-- 编译目标，depends是它依赖的target,在init执行过才执行compile--> 
-<target name="complie" depends="init">  
-    <!-- 运行javac命令 srcdir源目录 destdir目标目录--> 
-    <javac srcdir="${src}" destdir="${dest}" includeantruntime="on"/> 
-</target> 
-<!-- 构建目标，依赖compile--> 
-<target name="build" depends="complie"> 
-    <!-- 运行jar命令 jarfile为jar文件 basedir为classes--> 
-    <jar jarfile="${hello_jar}" basedir="${dest}"/> 
-</target> 
-<!--运行--> 
-<target name="run" depends="build"> 
-    <java classname="com.vincent.ant.AntHelloWorld" classpath="${hello_jar}"/> 
-</target> 
-<!-- 删除生成的文件--> 
-<target name="clean"> 
-    <delete dir="${dest}"/> 
-    <delete file="${hello_jar}"/> 
-</target> 
-<!--再次运行--> 
-<target name="rerun" depends="clean,run"> 
-    <ant target="clean"/> 
-    <ant target="run"/> 
-</target> 
-</project> 
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="HelloWorld" default="run" basedir=".">
+	<!-- 项目名为HelloWorld，default代表默认要做的事情，.代表当前目录-->
+	<property name="src" value="src" />
+	<!-- 定义src变量 -->
+	<property name="dest" value="classes" />
+	<!-- 定义dest变量-->
+	<property name="hello_jar" value="hello.jar" />
+	<!-- 定义hello_jar变量-->
+	<target name="init">
+		<!-- 定义一个目标，这里表示初始化，mkdir表示创建一个目录，${dest}表示取变量dest的值 -->
+		<mkdir dir="${dest}" />
+	</target>
+	<!-- 编译目标，depends是它依赖的target,在init执行过才执行compile-->
+	<target name="complie" depends="init">
+		<!-- 运行javac命令 srcdir源目录 destdir目标目录-->
+		<javac srcdir="${src}" destdir="${dest}" includeantruntime="on" />
+	</target>
+	<!-- 构建目标，依赖compile-->
+	<target name="build" depends="complie">
+		<!-- 运行jar命令 jarfile为jar文件 basedir为classes-->
+		<jar jarfile="${hello_jar}" basedir="${dest}" />
+	</target>
+	<!--运行-->
+	<target name="run" depends="build">
+		<java classname="com.vincent.ant.AntHelloWorld" classpath="${hello_jar}" />
+	</target>
+	<!-- 删除生成的文件-->
+	<target name="clean">
+		<delete dir="${dest}" />
+		<delete file="${hello_jar}" />
+	</target>
+	<!--再次运行-->
+	<target name="rerun" depends="clean,run">
+		<ant target="clean" />
+		<ant target="run" />
+	</target>
+</project>
