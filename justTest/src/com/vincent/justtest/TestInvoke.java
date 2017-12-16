@@ -1,23 +1,13 @@
-/**   
-* @Title: TestInvoke.java 
-* @Package com.vincent.justtest 
-* @Description: TODO
-* @author Vincent  
-* @date 2017年11月29日 下午9:57:07 
-* @version V1.0   
-*/ 
 package com.vincent.justtest;
-
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;  
+
 /**
- * @Function: TODO
+ * @Function: java反射机制(InvokeObj.java)
  * @author: Vincent
  * @date: 2017年11月29日下午9:57:07
  */
-
- 
 public class TestInvoke {  
     public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {  
         Class<InvokeObj> clazz = InvokeObj.class;  

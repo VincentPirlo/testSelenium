@@ -14,6 +14,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 /**
+ * 参考：http://blog.csdn.net/u010503127/article/details/50380135
  * @Function: 操作IOMS的日历控件
  * @author: Vincent
  * @date: 2017年12月14日下午9:58:44
