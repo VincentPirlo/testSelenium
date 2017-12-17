@@ -1,8 +1,15 @@
 package com.vincent.poi;
 
-import java.io.*;
-import org.apache.poi.xssf.usermodel.*;
+import java.io.File;
+import java.io.FileInputStream;
 
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+/**
+ * @Function: 打开Excel工作簿
+ * @author: Vincent
+ * @date: 2017年12月17日下午8:40:04
+ */
 public class OpenWorkBook {
 	public static void main(String[] args) throws Exception {
 		File file = new File("openworkbook.xlsx");
