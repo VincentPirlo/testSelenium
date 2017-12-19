@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.vincent.selenium.DataProviderDemo">
+      <class name="com.vincent.datadriven.DDTestng">
         <methods>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
           <include name="testSearch"/>
         </methods>
-      </class> <!-- com.vincent.selenium.DataProviderDemo -->
+      </class> <!-- com.vincent.datadriven.DDTestng -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

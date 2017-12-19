@@ -3,6 +3,12 @@ package com.vincent.selenium;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
+/**
+ * @Function: Selenium之信息验证
+ * @author: Vincent
+ * @date: 2017年12月18日下午9:32:15
+ */
 public class VerifyInfo {
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.gecko.driver","C:\\Program Files\\Mozilla Firefox\\geckodriver.exe");

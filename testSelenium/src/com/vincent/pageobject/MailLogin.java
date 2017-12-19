@@ -1,10 +1,17 @@
 package com.vincent.pageobject;
 
 import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import com.vincent.pageobject.LoginPage;
 
+/**
+ * @Function: Selenium之page object模式（主函数）
+ * 
+ * @author: Vincent
+ * @date: 2017年12月18日下午9:33:50
+ */
 public class MailLogin {
 	private static WebDriver driver = null;
 	

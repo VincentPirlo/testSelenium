@@ -1,4 +1,5 @@
 package com.vincent.selenium;
+
 import java.io.File;
 import org.apache.commons.io.FileUtils;
 
@@ -7,6 +8,11 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+/**
+ * @Function: Selenium之截屏
+ * @author: Vincent
+ * @date: 2017年12月18日下午9:27:58
+ */
 public class ScreenshotBaidu {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe");

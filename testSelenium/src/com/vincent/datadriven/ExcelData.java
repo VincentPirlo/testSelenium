@@ -19,6 +19,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 /**
  * @Function: TODO
+ * 数据驱动测试是相同的测试脚本使用不同的测试数据执行，测试数据和测试行为完全分离。
  * @author: Vincent
  * @date: 2017年12月3日下午3:16:03
  */

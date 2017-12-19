@@ -1,6 +1,14 @@
 package com.vincent.pageobject;
-import org.openqa.selenium.*;
 
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.By;
+
+/**
+ * @Function: TODO
+ * @author: Vincent
+ * @date: 2017年12月18日下午9:34:54
+ */
 public class LoginPage {
 	private static WebElement element = null;
 	

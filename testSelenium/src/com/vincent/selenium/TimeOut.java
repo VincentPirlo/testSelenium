@@ -2,9 +2,15 @@ package com.vincent.selenium;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.*;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
 import java.util.concurrent.TimeUnit;
 
+/**
+ * @Function: Selenium之设置元素等待
+ * @author: Vincent
+ * @date: 2017年12月18日下午9:30:48
+ */
 public class TimeOut {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.gecko.driver", "C:\\Program Files\\Mozilla Firefox\\geckodriver.exe");

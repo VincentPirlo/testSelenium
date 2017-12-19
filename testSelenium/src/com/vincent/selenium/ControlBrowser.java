@@ -1,6 +1,13 @@
 package com.vincent.selenium;
+
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.*;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+/**
+ * @Function: Selenium之浏览器前进与后退
+ * @author: Vincent
+ * @date: 2017年12月18日下午8:26:11
+ */
 public class ControlBrowser {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.gecko.driver", "C:\\Program Files\\Mozilla Firefox\\geckodriver.exe");

@@ -9,17 +9,18 @@
 package com.vincent.selenium;
 
 import java.io.File;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.*;
 
-
 /**
- * @Function: TODO
+ * @Function: Selenium之CSS选择器
  * @author: Vincent
  * @date: 2017年11月21日下午9:37:26
  */

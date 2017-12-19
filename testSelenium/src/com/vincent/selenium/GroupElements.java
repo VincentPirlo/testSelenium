@@ -8,6 +8,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.*;
 
+/**
+ * @Function: Selenium之findElements
+ * @author: Vincent
+ * @date: 2017年12月18日下午9:24:54
+ */
 public class GroupElements {
 	public static void main(String[] args) throws InterruptedException {
 		
@@ -27,5 +32,7 @@ public class GroupElements {
 				System.out.println("haha");
 			}
 		}
+		
+		driver.quit();
 	}
 }

@@ -1,12 +1,17 @@
 package com.vincent.selenium;
 
 import java.io.File;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
 //import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+/**
+ * @Function: Selenium之切换frame
+ * @author: Vincent
+ * @date: 2017年12月18日下午9:29:01
+ */
 public class SwitchFrames {
 	public static void main(String[] args) throws InterruptedException {
 		//System.setProperty("webdriver.gecko.driver", "C:\\\\Program Files\\\\Mozilla Firefox\\\\geckodriver.exe");

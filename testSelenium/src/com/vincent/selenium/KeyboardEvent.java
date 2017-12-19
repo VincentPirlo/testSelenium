@@ -6,6 +6,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+/**
+ * @Function: Selenium之键盘事件
+ * @author: Vincent
+ * @date: 2017年12月18日下午9:26:21
+ */
 public class KeyboardEvent {
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.gecko.driver", "C:\\Program Files\\Mozilla Firefox\\geckodriver.exe");
