@@ -28,7 +28,6 @@ public class HyperLink {
 		XSSFCellStyle hlinkstyle = workbook.createCellStyle();
 		XSSFFont hlinkfont = workbook.createFont();
 		hlinkfont.setUnderline(XSSFFont.U_SINGLE);				//ÏÂ»®Ïß
-		XSSFColor a = 
 		hlinkfont.setColor(XSSFColor a);//.setColor(HSSFColor.BLUE.index);
 		hlinkstyle.setFont(hlinkfont);
 		

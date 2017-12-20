@@ -13,6 +13,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 /**
  * @Function: 从10.10.40.50数据库test的emp表中读取所有数据并写入到exceldatabase.xlsx工作簿中
+ * 
  * @author: Vincent
  * @date: 2017年12月16日下午11:38:10
  */
@@ -25,8 +26,7 @@ public class ExcelDatabase
       //连接MySQL数据库
       Connection connect = DriverManager.getConnection("jdbc:mysql://10.10.40.50:3306/test", "root", "kdc");
       Statement statement = connect.createStatement();
-      ResultSet resultSet = statement
-      .executeQuery("select * from emp");
+      ResultSet resultSet = statement.executeQuery("select * from emp");
       XSSFWorkbook workbook = new XSSFWorkbook(); 
       XSSFSheet spreadsheet = workbook.createSheet("employe db");
       XSSFRow row=spreadsheet.createRow(0);
