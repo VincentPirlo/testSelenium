@@ -1,100 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20097" started-at="2017-12-19T15:13:25Z" finished-at="2017-12-19T15:13:45Z">
+  <suite name="Default suite" duration-ms="4" started-at="2017-12-21T15:25:48Z" finished-at="2017-12-21T15:25:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20097" started-at="2017-12-19T15:13:25Z" finished-at="2017-12-19T15:13:45Z">
-      <class name="com.vincent.datadriven.DDTestng">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vincent.datadriven.DDTestng@6eebc39e]" name="beforeMethod" is-config="true" duration-ms="3762" started-at="2017-12-19T23:13:25Z" finished-at="2017-12-19T23:13:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vincent.datadriven.DDTestng@6eebc39e]" name="testSearch" duration-ms="4078" started-at="2017-12-19T23:13:29Z" data-provider="searchData" finished-at="2017-12-19T23:13:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[老九门]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[演员]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[赵丽颖]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearch -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vincent.datadriven.DDTestng@6eebc39e]" name="afterMethod" is-config="true" duration-ms="623" started-at="2017-12-19T23:13:33Z" finished-at="2017-12-19T23:13:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vincent.datadriven.DDTestng@6eebc39e]" name="beforeMethod" is-config="true" duration-ms="1458" started-at="2017-12-19T23:13:34Z" finished-at="2017-12-19T23:13:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vincent.datadriven.DDTestng@6eebc39e]" name="testSearch" duration-ms="3724" started-at="2017-12-19T23:13:35Z" data-provider="searchData" finished-at="2017-12-19T23:13:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[X站警天启]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[导演]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[布莱恩·辛格]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearch -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vincent.datadriven.DDTestng@6eebc39e]" name="afterMethod" is-config="true" duration-ms="626" started-at="2017-12-19T23:13:39Z" finished-at="2017-12-19T23:13:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vincent.datadriven.DDTestng@6eebc39e]" name="beforeMethod" is-config="true" duration-ms="1485" started-at="2017-12-19T23:13:39Z" finished-at="2017-12-19T23:13:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vincent.datadriven.DDTestng@6eebc39e]" name="testSearch" duration-ms="3700" started-at="2017-12-19T23:13:41Z" data-provider="searchData" finished-at="2017-12-19T23:13:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[诛仙青云志]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[编剧]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[张戬]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearch -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vincent.datadriven.DDTestng@6eebc39e]" name="afterMethod" is-config="true" duration-ms="620" started-at="2017-12-19T23:13:45Z" finished-at="2017-12-19T23:13:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.vincent.datadriven.DDTestng -->
+    <test name="Default test" duration-ms="4" started-at="2017-12-21T15:25:48Z" finished-at="2017-12-21T15:25:48Z">
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
