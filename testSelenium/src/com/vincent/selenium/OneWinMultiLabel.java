@@ -36,6 +36,9 @@ public class OneWinMultiLabel {
 		String js = "window.open('https://www.zhihu.com/')";
 		((JavascriptExecutor)driver).executeScript(js);
 		
+		String js1 = "window.open('about:blank')";
+		((JavascriptExecutor)driver).executeScript(js1);
+		
 		Thread.sleep(2000);
 		driver.close();
 		
