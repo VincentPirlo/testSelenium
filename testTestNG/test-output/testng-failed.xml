@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.vincent.testng.TestExpectedException">
+      <class name="com.vincent.testng.TestTimeout">
         <methods>
-          <include name="testcase1"/>
+          <include name="testThisShouldFail"/>
         </methods>
-      </class> <!-- com.vincent.testng.TestExpectedException -->
+      </class> <!-- com.vincent.testng.TestTimeout -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

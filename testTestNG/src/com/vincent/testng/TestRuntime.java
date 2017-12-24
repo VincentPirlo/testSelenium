@@ -10,6 +10,7 @@ package com.vincent.testng;
 
 import org.testng.annotations.Test;
 /**
+ * 显示如何测试运行时异常
  * @author Vincent
  *
  */

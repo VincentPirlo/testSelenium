@@ -1,17 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="3" total="14" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19" started-at="2017-11-21T14:45:59Z" finished-at="2017-11-21T14:45:59Z">
+  <suite name="TestAll" duration-ms="69" started-at="2017-12-24T15:57:39Z" finished-at="2017-12-24T15:57:39Z">
     <groups>
+      <group name="database">
+        <method signature="TestGroup.testConnectMsSQL()[pri:0, instance:com.vincent.testng.TestGroup@9629756]" name="testConnectMsSQL" class="com.vincent.testng.TestGroup"/>
+        <method signature="TestGroup.testConnectOracle()[pri:0, instance:com.vincent.testng.TestGroup@9629756]" name="testConnectOracle" class="com.vincent.testng.TestGroup"/>
+      </group> <!-- database -->
+      <group name="selenium-test">
+        <method signature="TestGroup.runSelenium()[pri:0, instance:com.vincent.testng.TestGroup@9629756]" name="runSelenium" class="com.vincent.testng.TestGroup"/>
+        <method signature="TestGroup.runSelenium1()[pri:0, instance:com.vincent.testng.TestGroup@9629756]" name="runSelenium1" class="com.vincent.testng.TestGroup"/>
+        <method signature="TestSelenium.runSelenium()[pri:0, instance:com.vincent.testng.TestSelenium@7f9a81e8]" name="runSelenium" class="com.vincent.testng.TestSelenium"/>
+        <method signature="TestSelenium.runSelenium1()[pri:0, instance:com.vincent.testng.TestSelenium@7f9a81e8]" name="runSelenium1" class="com.vincent.testng.TestSelenium"/>
+        <method signature="TestGroup.runSelenium()[pri:0, instance:com.vincent.testng.TestGroup@2b98378d]" name="runSelenium" class="com.vincent.testng.TestGroup"/>
+        <method signature="TestGroup.runSelenium1()[pri:0, instance:com.vincent.testng.TestGroup@2b98378d]" name="runSelenium1" class="com.vincent.testng.TestGroup"/>
+        <method signature="TestSelenium.runSelenium()[pri:0, instance:com.vincent.testng.TestSelenium@4b9e13df]" name="runSelenium" class="com.vincent.testng.TestSelenium"/>
+        <method signature="TestSelenium.runSelenium1()[pri:0, instance:com.vincent.testng.TestSelenium@4b9e13df]" name="runSelenium1" class="com.vincent.testng.TestSelenium"/>
+      </group> <!-- selenium-test -->
     </groups>
-    <test name="Default test" duration-ms="19" started-at="2017-11-21T14:45:59Z" finished-at="2017-11-21T14:45:59Z">
-      <class name="com.vincent.testng.IgnoreTest">
-        <test-method status="PASS" signature="testSalutationMessage()[pri:0, instance:com.vincent.testng.IgnoreTest@6d78f375]" name="testSalutationMessage" duration-ms="7" started-at="2017-11-21T22:45:59Z" finished-at="2017-11-21T22:45:59Z">
+    <test name="final" duration-ms="32" started-at="2017-12-24T15:57:39Z" finished-at="2017-12-24T15:57:39Z">
+      <class name="com.vincent.testng.TestSelenium">
+        <test-method status="PASS" signature="runSelenium()[pri:0, instance:com.vincent.testng.TestSelenium@7f9a81e8]" name="runSelenium" duration-ms="5" started-at="2017-12-24T23:57:39Z" finished-at="2017-12-24T23:57:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSalutationMessage -->
-      </class> <!-- com.vincent.testng.IgnoreTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- runSelenium -->
+        <test-method status="PASS" signature="runSelenium1()[pri:0, instance:com.vincent.testng.TestSelenium@7f9a81e8]" name="runSelenium1" duration-ms="1" started-at="2017-12-24T23:57:39Z" finished-at="2017-12-24T23:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium1 -->
+      </class> <!-- com.vincent.testng.TestSelenium -->
+      <class name="com.vincent.testng.TestGroup">
+        <test-method status="PASS" signature="runSelenium()[pri:0, instance:com.vincent.testng.TestGroup@9629756]" name="runSelenium" duration-ms="1" started-at="2017-12-24T23:57:39Z" finished-at="2017-12-24T23:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium -->
+        <test-method status="PASS" signature="runSelenium1()[pri:0, instance:com.vincent.testng.TestGroup@9629756]" name="runSelenium1" duration-ms="1" started-at="2017-12-24T23:57:39Z" finished-at="2017-12-24T23:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium1 -->
+        <test-method status="PASS" signature="testConnectMsSQL()[pri:0, instance:com.vincent.testng.TestGroup@9629756]" name="testConnectMsSQL" duration-ms="2" started-at="2017-12-24T23:57:39Z" finished-at="2017-12-24T23:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConnectMsSQL -->
+        <test-method status="PASS" signature="setupDB()[pri:0, instance:com.vincent.testng.TestGroup@9629756]" name="setupDB" is-config="true" duration-ms="0" started-at="2017-12-24T23:57:39Z" finished-at="2017-12-24T23:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDB -->
+        <test-method status="PASS" signature="testConnectOracle()[pri:0, instance:com.vincent.testng.TestGroup@9629756]" name="testConnectOracle" duration-ms="0" started-at="2017-12-24T23:57:39Z" finished-at="2017-12-24T23:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConnectOracle -->
+        <test-method status="PASS" signature="cleanDB()[pri:0, instance:com.vincent.testng.TestGroup@9629756]" name="cleanDB" is-config="true" duration-ms="0" started-at="2017-12-24T23:57:39Z" finished-at="2017-12-24T23:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanDB -->
+        <test-method status="PASS" signature="runFinal()[pri:0, instance:com.vincent.testng.TestGroup@9629756]" name="runFinal" duration-ms="1" depends-on-groups="database, selenium-test" started-at="2017-12-24T23:57:39Z" finished-at="2017-12-24T23:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runFinal -->
+      </class> <!-- com.vincent.testng.TestGroup -->
+    </test> <!-- final -->
+    <test name="selenium" duration-ms="8" started-at="2017-12-24T15:57:39Z" finished-at="2017-12-24T15:57:39Z">
+      <class name="com.vincent.testng.TestSelenium">
+        <test-method status="PASS" signature="runSelenium()[pri:0, instance:com.vincent.testng.TestSelenium@4b9e13df]" name="runSelenium" duration-ms="1" started-at="2017-12-24T23:57:39Z" finished-at="2017-12-24T23:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium -->
+        <test-method status="PASS" signature="runSelenium1()[pri:0, instance:com.vincent.testng.TestSelenium@4b9e13df]" name="runSelenium1" duration-ms="0" started-at="2017-12-24T23:57:39Z" finished-at="2017-12-24T23:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium1 -->
+      </class> <!-- com.vincent.testng.TestSelenium -->
+      <class name="com.vincent.testng.TestGroup">
+        <test-method status="PASS" signature="runSelenium()[pri:0, instance:com.vincent.testng.TestGroup@2b98378d]" name="runSelenium" duration-ms="1" started-at="2017-12-24T23:57:39Z" finished-at="2017-12-24T23:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium -->
+        <test-method status="PASS" signature="runSelenium1()[pri:0, instance:com.vincent.testng.TestGroup@2b98378d]" name="runSelenium1" duration-ms="1" started-at="2017-12-24T23:57:39Z" finished-at="2017-12-24T23:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium1 -->
+      </class> <!-- com.vincent.testng.TestGroup -->
+    </test> <!-- selenium -->
+  </suite> <!-- TestAll -->
 </testng-results>

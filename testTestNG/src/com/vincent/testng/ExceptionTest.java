@@ -7,6 +7,7 @@
 * @version V1.0   
 */ 
 package com.vincent.testng;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 /**
