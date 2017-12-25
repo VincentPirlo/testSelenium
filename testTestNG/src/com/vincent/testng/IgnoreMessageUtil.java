@@ -9,8 +9,9 @@
 package com.vincent.testng;
 
 /*
-* This class prints the given message on console.
-*/
+ * 忽略测试实用工具类 
+ * This class prints the given message on console.
+ */
 public class IgnoreMessageUtil {
 
    private String message;

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- 运行TestConfig、TestOrder、TestDataBase类 -->
+
+<suite name="TestALL">
+	<test name="order">
+		<classes>
+			<class name="com.vincent.testng.TestConfig" />
+			<class name="com.vincent.testng.TestOrder" />
+		</classes>
+	</test>
+	
+	<test name="database">
+		<classes>
+			<class name="com.vincent.testng.TestConfig" />
+			<class name="com.vincent.testng.TestDataBase" />
+		</classes>
+	</test>
+</suite>
