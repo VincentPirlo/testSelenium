@@ -18,7 +18,8 @@ import org.testng.annotations.BeforeTest;
  * 测试套件是用于测试软件程序的行为或一组行为的测试用例的集合。 在TestNG中，我们无法在测试源代码中定义一个套件，
  * 但它可以由一个XML文件表示，因为套件是执行的功能。 它还允许灵活配置要运行的测试。 套件可以包含一个或多个测试，
  * 并由<suite>标记定义。<suite>是testng.xml的根标记。 它描述了一个测试套件，它又由几个<test>部分组成。
- * TestConfig.java、TestDataBase.java、TestOrder.java、suitetest1-testng.xml、suitetest2-testn.xml
+ * TestConfig.java、TestDataBase.java、TestOrder.java、
+ * suitetest1-testng.xml、suitetest2-testn.xml、suitetest3-testn.xml
  * @author: Vincent
  * @date: 2017年12月25日下午9:11:53
  */

@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="TestAll" duration-ms="21" started-at="2017-12-25T15:22:14Z" finished-at="2017-12-25T15:22:14Z">
+  <suite name="TestDependency" duration-ms="32" started-at="2017-12-25T15:59:48Z" finished-at="2017-12-25T15:59:48Z">
     <groups>
       <group name="db">
-        <method signature="TestDataBase.testConnectMsSQL()[pri:0, instance:com.vincent.testng.TestDataBase@56f4468b]" name="testConnectMsSQL" class="com.vincent.testng.TestDataBase"/>
-        <method signature="TestDataBase.testConnectOracle()[pri:0, instance:com.vincent.testng.TestDataBase@56f4468b]" name="testConnectOracle" class="com.vincent.testng.TestDataBase"/>
+        <method signature="TestDB.initDB()[pri:0, instance:com.vincent.testng.TestDB@23ceabc1]" name="initDB" class="com.vincent.testng.TestDB"/>
+        <method signature="TestDB.testConnection()[pri:0, instance:com.vincent.testng.TestDB@23ceabc1]" name="testConnection" class="com.vincent.testng.TestDB"/>
       </group> <!-- db -->
+      <group name="deploy">
+        <method signature="TestServer.deployServer()[pri:0, instance:com.vincent.testng.TestServer@5d5eef3d]" name="deployServer" class="com.vincent.testng.TestServer"/>
+        <method signature="TestServer.deployBackUpServer()[pri:0, instance:com.vincent.testng.TestServer@5d5eef3d]" name="deployBackUpServer" class="com.vincent.testng.TestServer"/>
+      </group> <!-- deploy -->
     </groups>
-    <test name="database" duration-ms="21" started-at="2017-12-25T15:22:14Z" finished-at="2017-12-25T15:22:14Z">
-      <class name="com.vincent.testng.TestDataBase">
-        <test-method status="PASS" signature="testConnectMsSQL()[pri:0, instance:com.vincent.testng.TestDataBase@56f4468b]" name="testConnectMsSQL" duration-ms="6" started-at="2017-12-25T23:22:14Z" finished-at="2017-12-25T23:22:14Z">
+    <test name="TestCase1" duration-ms="32" started-at="2017-12-25T15:59:48Z" finished-at="2017-12-25T15:59:48Z">
+      <class name="com.vincent.testng.TestServer">
+        <test-method status="PASS" signature="deployServer()[pri:0, instance:com.vincent.testng.TestServer@5d5eef3d]" name="deployServer" duration-ms="6" started-at="2017-12-25T23:59:48Z" finished-at="2017-12-25T23:59:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testConnectMsSQL -->
-        <test-method status="PASS" signature="testConnectOracle()[pri:0, instance:com.vincent.testng.TestDataBase@56f4468b]" name="testConnectOracle" duration-ms="1" started-at="2017-12-25T23:22:14Z" finished-at="2017-12-25T23:22:14Z">
+        </test-method> <!-- deployServer -->
+        <test-method status="PASS" signature="deployBackUpServer()[pri:0, instance:com.vincent.testng.TestServer@5d5eef3d]" name="deployBackUpServer" duration-ms="1" started-at="2017-12-25T23:59:48Z" depends-on-methods="com.vincent.testng.TestServer.deployServer" finished-at="2017-12-25T23:59:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testConnectOracle -->
-      </class> <!-- com.vincent.testng.TestDataBase -->
-    </test> <!-- database -->
-  </suite> <!-- TestAll -->
+        </test-method> <!-- deployBackUpServer -->
+      </class> <!-- com.vincent.testng.TestServer -->
+      <class name="com.vincent.testng.TestDB">
+        <test-method status="PASS" signature="initDB()[pri:0, instance:com.vincent.testng.TestDB@23ceabc1]" name="initDB" duration-ms="1" depends-on-groups="deploy" started-at="2017-12-25T23:59:48Z" finished-at="2017-12-25T23:59:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDB -->
+        <test-method status="PASS" signature="testConnection()[pri:0, instance:com.vincent.testng.TestDB@23ceabc1]" name="testConnection" duration-ms="0" started-at="2017-12-25T23:59:48Z" depends-on-methods="com.vincent.testng.TestDB.initDB" finished-at="2017-12-25T23:59:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConnection -->
+      </class> <!-- com.vincent.testng.TestDB -->
+      <class name="com.vincent.testng.TestApp">
+        <test-method status="PASS" signature="method1()[pri:0, instance:com.vincent.testng.TestApp@215be6bb]" name="method1" duration-ms="1" depends-on-groups="db, deploy" started-at="2017-12-25T23:59:48Z" finished-at="2017-12-25T23:59:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:com.vincent.testng.TestApp@215be6bb]" name="method2" duration-ms="0" started-at="2017-12-25T23:59:48Z" depends-on-methods="com.vincent.testng.TestApp.method1" finished-at="2017-12-25T23:59:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+      </class> <!-- com.vincent.testng.TestApp -->
+    </test> <!-- TestCase1 -->
+  </suite> <!-- TestDependency -->
 </testng-results>
