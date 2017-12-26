@@ -1,27 +1,397 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="24" passed="24">
   <reporter-output>
   </reporter-output>
-  <suite name="test-parameter" duration-ms="21" started-at="2017-12-26T15:19:14Z" finished-at="2017-12-26T15:19:14Z">
+  <suite name="Default suite" duration-ms="62" started-at="2017-12-26T15:30:56Z" finished-at="2017-12-26T15:30:56Z">
     <groups>
-      <group name="groupA">
-        <method signature="TestParameterDataProvider4.test1(int)[pri:0, instance:com.vincent.testng.TestParameterDataProvider4@3a82f6ef]" name="test1" class="com.vincent.testng.TestParameterDataProvider4"/>
-      </group> <!-- groupA -->
     </groups>
-    <test name="example1" duration-ms="21" started-at="2017-12-26T15:19:14Z" finished-at="2017-12-26T15:19:14Z">
-      <class name="com.vincent.testng.TestParameterDataProvider4">
-        <test-method status="PASS" signature="test1(int)[pri:0, instance:com.vincent.testng.TestParameterDataProvider4@3a82f6ef]" name="test1" duration-ms="6" started-at="2017-12-26T23:19:14Z" data-provider="dataProvider" finished-at="2017-12-26T23:19:14Z">
+    <test name="Default test" duration-ms="62" started-at="2017-12-26T15:30:56Z" finished-at="2017-12-26T15:30:56Z">
+      <class name="com.vincent.testng.CharUtilsTest">
+        <test-method status="PASS" signature="ASCIIToCharTest(char, int)[pri:0, instance:com.vincent.testng.CharUtilsTest@32d992b2]" name="ASCIIToCharTest" duration-ms="8" started-at="2017-12-26T23:30:56Z" data-provider="ValidDataProvider" finished-at="2017-12-26T23:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[65]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASCIIToCharTest -->
+        <test-method status="PASS" signature="ASCIIToCharTest(char, int)[pri:0, instance:com.vincent.testng.CharUtilsTest@32d992b2]" name="ASCIIToCharTest" duration-ms="0" started-at="2017-12-26T23:30:56Z" data-provider="ValidDataProvider" finished-at="2017-12-26T23:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[97]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASCIIToCharTest -->
+        <test-method status="PASS" signature="ASCIIToCharTest(char, int)[pri:0, instance:com.vincent.testng.CharUtilsTest@32d992b2]" name="ASCIIToCharTest" duration-ms="0" started-at="2017-12-26T23:30:56Z" data-provider="ValidDataProvider" finished-at="2017-12-26T23:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[B]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[66]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASCIIToCharTest -->
+        <test-method status="PASS" signature="ASCIIToCharTest(char, int)[pri:0, instance:com.vincent.testng.CharUtilsTest@32d992b2]" name="ASCIIToCharTest" duration-ms="1" started-at="2017-12-26T23:30:56Z" data-provider="ValidDataProvider" finished-at="2017-12-26T23:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[98]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASCIIToCharTest -->
+        <test-method status="PASS" signature="ASCIIToCharTest(char, int)[pri:0, instance:com.vincent.testng.CharUtilsTest@32d992b2]" name="ASCIIToCharTest" duration-ms="1" started-at="2017-12-26T23:30:56Z" data-provider="ValidDataProvider" finished-at="2017-12-26T23:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[67]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASCIIToCharTest -->
+        <test-method status="PASS" signature="ASCIIToCharTest(char, int)[pri:0, instance:com.vincent.testng.CharUtilsTest@32d992b2]" name="ASCIIToCharTest" duration-ms="0" started-at="2017-12-26T23:30:56Z" data-provider="ValidDataProvider" finished-at="2017-12-26T23:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASCIIToCharTest -->
+        <test-method status="PASS" signature="ASCIIToCharTest(char, int)[pri:0, instance:com.vincent.testng.CharUtilsTest@32d992b2]" name="ASCIIToCharTest" duration-ms="1" started-at="2017-12-26T23:30:56Z" data-provider="ValidDataProvider" finished-at="2017-12-26T23:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[68]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASCIIToCharTest -->
+        <test-method status="PASS" signature="ASCIIToCharTest(char, int)[pri:0, instance:com.vincent.testng.CharUtilsTest@32d992b2]" name="ASCIIToCharTest" duration-ms="1" started-at="2017-12-26T23:30:56Z" data-provider="ValidDataProvider" finished-at="2017-12-26T23:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASCIIToCharTest -->
+        <test-method status="PASS" signature="ASCIIToCharTest(char, int)[pri:0, instance:com.vincent.testng.CharUtilsTest@32d992b2]" name="ASCIIToCharTest" duration-ms="1" started-at="2017-12-26T23:30:56Z" data-provider="ValidDataProvider" finished-at="2017-12-26T23:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Z]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASCIIToCharTest -->
+        <test-method status="PASS" signature="ASCIIToCharTest(char, int)[pri:0, instance:com.vincent.testng.CharUtilsTest@32d992b2]" name="ASCIIToCharTest" duration-ms="0" started-at="2017-12-26T23:30:56Z" data-provider="ValidDataProvider" finished-at="2017-12-26T23:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[z]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[122]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASCIIToCharTest -->
+        <test-method status="PASS" signature="ASCIIToCharTest(char, int)[pri:0, instance:com.vincent.testng.CharUtilsTest@32d992b2]" name="ASCIIToCharTest" duration-ms="1" started-at="2017-12-26T23:30:56Z" data-provider="ValidDataProvider" finished-at="2017-12-26T23:30:56Z">
           <params>
             <param index="0">
               <value>
                 <![CDATA[1]]>
               </value>
             </param>
+            <param index="1">
+              <value>
+                <![CDATA[49]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- com.vincent.testng.TestParameterDataProvider4 -->
-    </test> <!-- example1 -->
-  </suite> <!-- test-parameter -->
+        </test-method> <!-- ASCIIToCharTest -->
+        <test-method status="PASS" signature="ASCIIToCharTest(char, int)[pri:0, instance:com.vincent.testng.CharUtilsTest@32d992b2]" name="ASCIIToCharTest" duration-ms="1" started-at="2017-12-26T23:30:56Z" data-provider="ValidDataProvider" finished-at="2017-12-26T23:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[57]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASCIIToCharTest -->
+        <test-method status="PASS" signature="CharToASCIITest(char, int)[pri:0, instance:com.vincent.testng.CharUtilsTest@32d992b2]" name="CharToASCIITest" duration-ms="1" started-at="2017-12-26T23:30:56Z" data-provider="ValidDataProvider" finished-at="2017-12-26T23:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[65]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CharToASCIITest -->
+        <test-method status="PASS" signature="CharToASCIITest(char, int)[pri:0, instance:com.vincent.testng.CharUtilsTest@32d992b2]" name="CharToASCIITest" duration-ms="1" started-at="2017-12-26T23:30:56Z" data-provider="ValidDataProvider" finished-at="2017-12-26T23:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[97]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CharToASCIITest -->
+        <test-method status="PASS" signature="CharToASCIITest(char, int)[pri:0, instance:com.vincent.testng.CharUtilsTest@32d992b2]" name="CharToASCIITest" duration-ms="1" started-at="2017-12-26T23:30:56Z" data-provider="ValidDataProvider" finished-at="2017-12-26T23:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[B]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[66]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CharToASCIITest -->
+        <test-method status="PASS" signature="CharToASCIITest(char, int)[pri:0, instance:com.vincent.testng.CharUtilsTest@32d992b2]" name="CharToASCIITest" duration-ms="1" started-at="2017-12-26T23:30:56Z" data-provider="ValidDataProvider" finished-at="2017-12-26T23:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[98]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CharToASCIITest -->
+        <test-method status="PASS" signature="CharToASCIITest(char, int)[pri:0, instance:com.vincent.testng.CharUtilsTest@32d992b2]" name="CharToASCIITest" duration-ms="1" started-at="2017-12-26T23:30:56Z" data-provider="ValidDataProvider" finished-at="2017-12-26T23:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[67]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CharToASCIITest -->
+        <test-method status="PASS" signature="CharToASCIITest(char, int)[pri:0, instance:com.vincent.testng.CharUtilsTest@32d992b2]" name="CharToASCIITest" duration-ms="0" started-at="2017-12-26T23:30:56Z" data-provider="ValidDataProvider" finished-at="2017-12-26T23:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CharToASCIITest -->
+        <test-method status="PASS" signature="CharToASCIITest(char, int)[pri:0, instance:com.vincent.testng.CharUtilsTest@32d992b2]" name="CharToASCIITest" duration-ms="0" started-at="2017-12-26T23:30:56Z" data-provider="ValidDataProvider" finished-at="2017-12-26T23:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[68]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CharToASCIITest -->
+        <test-method status="PASS" signature="CharToASCIITest(char, int)[pri:0, instance:com.vincent.testng.CharUtilsTest@32d992b2]" name="CharToASCIITest" duration-ms="0" started-at="2017-12-26T23:30:56Z" data-provider="ValidDataProvider" finished-at="2017-12-26T23:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CharToASCIITest -->
+        <test-method status="PASS" signature="CharToASCIITest(char, int)[pri:0, instance:com.vincent.testng.CharUtilsTest@32d992b2]" name="CharToASCIITest" duration-ms="1" started-at="2017-12-26T23:30:56Z" data-provider="ValidDataProvider" finished-at="2017-12-26T23:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Z]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CharToASCIITest -->
+        <test-method status="PASS" signature="CharToASCIITest(char, int)[pri:0, instance:com.vincent.testng.CharUtilsTest@32d992b2]" name="CharToASCIITest" duration-ms="0" started-at="2017-12-26T23:30:56Z" data-provider="ValidDataProvider" finished-at="2017-12-26T23:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[z]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[122]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CharToASCIITest -->
+        <test-method status="PASS" signature="CharToASCIITest(char, int)[pri:0, instance:com.vincent.testng.CharUtilsTest@32d992b2]" name="CharToASCIITest" duration-ms="1" started-at="2017-12-26T23:30:56Z" data-provider="ValidDataProvider" finished-at="2017-12-26T23:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[49]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CharToASCIITest -->
+        <test-method status="PASS" signature="CharToASCIITest(char, int)[pri:0, instance:com.vincent.testng.CharUtilsTest@32d992b2]" name="CharToASCIITest" duration-ms="1" started-at="2017-12-26T23:30:56Z" data-provider="ValidDataProvider" finished-at="2017-12-26T23:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[57]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CharToASCIITest -->
+      </class> <!-- com.vincent.testng.CharUtilsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
