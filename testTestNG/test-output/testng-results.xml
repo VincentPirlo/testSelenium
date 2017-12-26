@@ -1,49 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestDependency" duration-ms="32" started-at="2017-12-25T15:59:48Z" finished-at="2017-12-25T15:59:48Z">
+  <suite name="test-parameter" duration-ms="21" started-at="2017-12-26T15:19:14Z" finished-at="2017-12-26T15:19:14Z">
     <groups>
-      <group name="db">
-        <method signature="TestDB.initDB()[pri:0, instance:com.vincent.testng.TestDB@23ceabc1]" name="initDB" class="com.vincent.testng.TestDB"/>
-        <method signature="TestDB.testConnection()[pri:0, instance:com.vincent.testng.TestDB@23ceabc1]" name="testConnection" class="com.vincent.testng.TestDB"/>
-      </group> <!-- db -->
-      <group name="deploy">
-        <method signature="TestServer.deployServer()[pri:0, instance:com.vincent.testng.TestServer@5d5eef3d]" name="deployServer" class="com.vincent.testng.TestServer"/>
-        <method signature="TestServer.deployBackUpServer()[pri:0, instance:com.vincent.testng.TestServer@5d5eef3d]" name="deployBackUpServer" class="com.vincent.testng.TestServer"/>
-      </group> <!-- deploy -->
+      <group name="groupA">
+        <method signature="TestParameterDataProvider4.test1(int)[pri:0, instance:com.vincent.testng.TestParameterDataProvider4@3a82f6ef]" name="test1" class="com.vincent.testng.TestParameterDataProvider4"/>
+      </group> <!-- groupA -->
     </groups>
-    <test name="TestCase1" duration-ms="32" started-at="2017-12-25T15:59:48Z" finished-at="2017-12-25T15:59:48Z">
-      <class name="com.vincent.testng.TestServer">
-        <test-method status="PASS" signature="deployServer()[pri:0, instance:com.vincent.testng.TestServer@5d5eef3d]" name="deployServer" duration-ms="6" started-at="2017-12-25T23:59:48Z" finished-at="2017-12-25T23:59:48Z">
+    <test name="example1" duration-ms="21" started-at="2017-12-26T15:19:14Z" finished-at="2017-12-26T15:19:14Z">
+      <class name="com.vincent.testng.TestParameterDataProvider4">
+        <test-method status="PASS" signature="test1(int)[pri:0, instance:com.vincent.testng.TestParameterDataProvider4@3a82f6ef]" name="test1" duration-ms="6" started-at="2017-12-26T23:19:14Z" data-provider="dataProvider" finished-at="2017-12-26T23:19:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deployServer -->
-        <test-method status="PASS" signature="deployBackUpServer()[pri:0, instance:com.vincent.testng.TestServer@5d5eef3d]" name="deployBackUpServer" duration-ms="1" started-at="2017-12-25T23:59:48Z" depends-on-methods="com.vincent.testng.TestServer.deployServer" finished-at="2017-12-25T23:59:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deployBackUpServer -->
-      </class> <!-- com.vincent.testng.TestServer -->
-      <class name="com.vincent.testng.TestDB">
-        <test-method status="PASS" signature="initDB()[pri:0, instance:com.vincent.testng.TestDB@23ceabc1]" name="initDB" duration-ms="1" depends-on-groups="deploy" started-at="2017-12-25T23:59:48Z" finished-at="2017-12-25T23:59:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initDB -->
-        <test-method status="PASS" signature="testConnection()[pri:0, instance:com.vincent.testng.TestDB@23ceabc1]" name="testConnection" duration-ms="0" started-at="2017-12-25T23:59:48Z" depends-on-methods="com.vincent.testng.TestDB.initDB" finished-at="2017-12-25T23:59:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testConnection -->
-      </class> <!-- com.vincent.testng.TestDB -->
-      <class name="com.vincent.testng.TestApp">
-        <test-method status="PASS" signature="method1()[pri:0, instance:com.vincent.testng.TestApp@215be6bb]" name="method1" duration-ms="1" depends-on-groups="db, deploy" started-at="2017-12-25T23:59:48Z" finished-at="2017-12-25T23:59:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method1 -->
-        <test-method status="PASS" signature="method2()[pri:0, instance:com.vincent.testng.TestApp@215be6bb]" name="method2" duration-ms="0" started-at="2017-12-25T23:59:48Z" depends-on-methods="com.vincent.testng.TestApp.method1" finished-at="2017-12-25T23:59:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method2 -->
-      </class> <!-- com.vincent.testng.TestApp -->
-    </test> <!-- TestCase1 -->
-  </suite> <!-- TestDependency -->
+        </test-method> <!-- test1 -->
+      </class> <!-- com.vincent.testng.TestParameterDataProvider4 -->
+    </test> <!-- example1 -->
+  </suite> <!-- test-parameter -->
 </testng-results>

@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.vincent.testng.App2">
+      <class name="com.vincent.testng.TestParameterDataProvider4">
         <methods>
-          <include name="method1"/>
-          <include name="method2"/>
+          <include name="test1" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.vincent.testng.App2 -->
+      </class> <!-- com.vincent.testng.TestParameterDataProvider4 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
