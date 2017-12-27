@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- MessageUtil.java & TestMessage.java & messagetest-testng.xml -->
+<suite name="Message">
+	<test name="testmessage">
+		<classes>
+			<class name="com.vincent.ttestng.TestMessage" />
+		</classes>
+	</test>
+</suite>
