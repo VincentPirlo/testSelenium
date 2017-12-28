@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- GroupUtil.java & GroupTest.java & grouptest2-testng.xml -->
+<!-- 排斥组 -->
+<suite name="GroupSuite2">
+	<test name="grouptest2">
+		<groups>
+         	<define name="all">
+         		<include name="all" />
+	 		</define>
+	 		<run>
+	    		<exclude name="functest"/>
+	    		<include name="checkintest"/>
+	 		</run>
+   	 	</groups>
+	 	<classes>
+	      	<class name="com.vincent.ttestng.GroupTest" />
+		</classes>
+   	</test>
+</suite>

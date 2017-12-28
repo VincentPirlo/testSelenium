@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- DependUtil.java & DependTest.java & dependtest-testng.xml -->
+<suite name="DependSuite">
+    <test name="dependtest">
+	<classes>
+	    <class name="com.vincent.ttestng.DependTest" />
+	</classes>
+    </test>
+</suite>

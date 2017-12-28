@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Message" duration-ms="34" started-at="2017-12-27T15:25:50Z" finished-at="2017-12-27T15:25:50Z">
+  <suite name="Converted JUnit suite" duration-ms="28" started-at="2017-12-28T15:33:31Z" finished-at="2017-12-28T15:33:31Z">
     <groups>
     </groups>
-    <test name="testmessage" duration-ms="34" started-at="2017-12-27T15:25:50Z" finished-at="2017-12-27T15:25:50Z">
-      <class name="com.vincent.ttestng.TestMessage">
-        <test-method status="PASS" signature="testPrintMessage()[pri:0, instance:com.vincent.ttestng.TestMessage@5f375618]" name="testPrintMessage" duration-ms="10" started-at="2017-12-27T23:25:50Z" finished-at="2017-12-27T23:25:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPrintMessage -->
-      </class> <!-- com.vincent.ttestng.TestMessage -->
-    </test> <!-- testmessage -->
-  </suite> <!-- Message -->
+    <test name="JUnitTests" duration-ms="28" started-at="2017-12-28T15:33:31Z" finished-at="2017-12-28T15:33:31Z">
+    </test> <!-- JUnitTests -->
+  </suite> <!-- Converted JUnit suite -->
 </testng-results>
