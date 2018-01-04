@@ -77,24 +77,25 @@ public class TraXml1 {
 		public void visit(Attribute node) {
 			System.out.println("attribute: " + node.getName() + " = " + node.getValue());
 		}
-	}
-	
-	public void visit(ProcessingInstruction node) {
-		System.out.println("PI: " + node.getTarget() + " " + node.getText());
-	}
 	
 	
-	public void visit(Element node) {
-		if(node.isTextOnly()) {
-			System.out.println("element: " + node.getName() + " = " + node.getText());
-		} else {
-			System.out.println("--------------" + node.getName() + "--------------");
+		public void visit(ProcessingInstruction node) {
+			System.out.println("PI: " + node.getTarget() + " " + node.getText());
+		}
+	
+	
+		public void visit(Element node) {
+			if(node.isTextOnly()) {
+				System.out.println("element: " + node.getName() + " = " + node.getText());
+			} else {
+				System.out.println("--------------" + node.getName() + "--------------");
+			}
 		}
 	}
 	
 	public static void main(String[] args) {
 		TraXml1 traxml1 = new TraXml1(new File("students-gen.xml"));
-		traxml1.traversalDocumentByIterator();
-		//traxml1.traversalDocumentByVisitor();
+		//traxml1.traversalDocumentByIterator();
+		traxml1.traversalDocumentByVisitor();
 	}
 }
