@@ -15,7 +15,7 @@ package com.vincent.fourdom4j;
  */
 public class FourTest {
 	public static void main(String[] args) {
-		DomDemo domdemo = new DomDemo();
+		/*DomDemo domdemo = new DomDemo();
 		domdemo.init();
 		domdemo.createXml("domdemo.xml");
 		domdemo.parserXml("domdemo.xml");
@@ -23,6 +23,11 @@ public class FourTest {
 		
 		Dom4jDemo dom4jdemo = new Dom4jDemo();
 		dom4jdemo.createXml("dom4jdemo.xml");
-		dom4jdemo.parserXml("dom4jdemo.xml");
+		dom4jdemo.parserXml("dom4jdemo.xml");*/
+		
+		JDomDemo jdomdemo = new JDomDemo();
+		jdomdemo.createXml("jdomdemo.xml");
+		jdomdemo.parserXml("jdomdemo.xml");
+		
 	}
 }

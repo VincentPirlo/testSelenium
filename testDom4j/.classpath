@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="D:/test-workspace/jarsource/dom4j-2.1.0.jar"/>
 	<classpathentry kind="lib" path="D:/test-workspace/jarsource/jaxen-1.1.6.jar"/>
+	<classpathentry kind="lib" path="D:/test-workspace/jarsource/jdom-2.0.6/jdom-2.0.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
