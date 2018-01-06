@@ -12,8 +12,6 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-
 /**
  * @Function: 获取文件路径的方法
  * @author: Vincent
