@@ -8,11 +8,8 @@
 */ 
 package com.vincent.justtest;
 
-import java.sql.SQLException;
-import java.text.ParseException;
-
 /**
- * @Function: TODO
+ * @Function: OperateMysql.java的测试类
  * @author: Vincent
  * @date: 2018年1月7日下午7:30:01
  */
