@@ -15,5 +15,6 @@
 	<classpathentry kind="lib" path="D:/test-workspace/jarsource/poi-3.16/lib/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="D:/test-workspace/jarsource/poi-3.16/lib/junit-4.12.jar"/>
 	<classpathentry kind="lib" path="D:/test-workspace/jarsource/poi-3.16/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/test-workspace/jarsource/mysql-connector-java-5.1.45-bin.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
