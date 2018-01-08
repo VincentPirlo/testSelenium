@@ -8,8 +8,6 @@
 */ 
 package com.vincent.selenium;
 
-import java.util.ArrayList;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -31,7 +29,6 @@ public class OneWinMultiLabel {
 		driver.get("https://www.baidu.com");
 		
 		Thread.sleep(2000);
-		//driver.findElement(By.id("setf")).click();
 		
 		String js = "window.open('https://www.zhihu.com/')";
 		((JavascriptExecutor)driver).executeScript(js);
@@ -39,8 +36,9 @@ public class OneWinMultiLabel {
 		String js1 = "window.open('about:blank')";
 		((JavascriptExecutor)driver).executeScript(js1);
 		
+		
 		Thread.sleep(2000);
-		driver.close();
+		driver.quit();
 		
 	}
 }

@@ -10,15 +10,15 @@ package com.vincent.selenium;
 
 import java.util.Set;  
 
-import org.junit.AfterClass;  
-import org.junit.BeforeClass;  
-import org.junit.Test;  
 import org.openqa.selenium.By;  
 import org.openqa.selenium.JavascriptExecutor;  
 import org.openqa.selenium.Keys;  
 import org.openqa.selenium.WebDriver;  
-import org.openqa.selenium.firefox.FirefoxDriver;  
-import org.openqa.selenium.interactions.Actions;  
+import org.openqa.selenium.chrome.ChromeDriver;  
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;  
 /**
  * @Function: TODO
  * @author: Vincent
@@ -30,7 +30,8 @@ public class SwitchWindow {
       
     @BeforeClass  
     public static void before(){  
-        driver=new FirefoxDriver();  
+    	System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe");
+        driver=new ChromeDriver();  
         driver.get("https://www.baidu.com");  
         driver.manage().window().maximize();  
         System.out.println("there are " + driver.getWindowHandles().size() + " window");  

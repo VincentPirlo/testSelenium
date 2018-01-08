@@ -1,68 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="187" started-at="2018-01-06T15:28:25Z" finished-at="2018-01-06T15:28:25Z">
+  <suite name="Default suite" duration-ms="7" started-at="2018-01-08T13:33:30Z" finished-at="2018-01-08T13:33:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="187" started-at="2018-01-06T15:28:25Z" finished-at="2018-01-06T15:28:25Z">
-      <class name="com.vincent.datadriveno.ExcelDataTest">
-        <test-method status="PASS" signature="ts(java.util.Map)[pri:0, instance:com.vincent.datadriveno.ExcelDataTest@7d9d1a19]" name="ts" duration-ms="15" started-at="2018-01-06T23:28:25Z" data-provider="db1" finished-at="2018-01-06T23:28:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{par1=DATAr1par1, par2=DATAr1par2, par3=DATAr1par4}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ts -->
-        <test-method status="PASS" signature="ts(java.util.Map)[pri:0, instance:com.vincent.datadriveno.ExcelDataTest@7d9d1a19]" name="ts" duration-ms="0" started-at="2018-01-06T23:28:25Z" data-provider="db1" finished-at="2018-01-06T23:28:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{par1=DATAr5par1, par2=DATAr5par2, par3=DATAr1par4}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ts -->
-        <test-method status="PASS" signature="ts(java.util.Map)[pri:0, instance:com.vincent.datadriveno.ExcelDataTest@7d9d1a19]" name="ts" duration-ms="0" started-at="2018-01-06T23:28:25Z" data-provider="db1" finished-at="2018-01-06T23:28:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{par1=DATAr2par1, par2=DATAr2par2, par3=DATAr1par4}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ts -->
-        <test-method status="PASS" signature="ts(java.util.Map)[pri:0, instance:com.vincent.datadriveno.ExcelDataTest@7d9d1a19]" name="ts" duration-ms="0" started-at="2018-01-06T23:28:25Z" data-provider="db1" finished-at="2018-01-06T23:28:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{par1=DATAr3par1, par2=DATAr3par2, par3=DATAr1par4}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ts -->
-        <test-method status="PASS" signature="ts(java.util.Map)[pri:0, instance:com.vincent.datadriveno.ExcelDataTest@7d9d1a19]" name="ts" duration-ms="0" started-at="2018-01-06T23:28:25Z" data-provider="db1" finished-at="2018-01-06T23:28:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{par1=DATAr4par1, par2=DATAr4par2, par3=DATAr1par4}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ts -->
-      </class> <!-- com.vincent.datadriveno.ExcelDataTest -->
+    <test name="Default test" duration-ms="7" started-at="2018-01-08T13:33:30Z" finished-at="2018-01-08T13:33:30Z">
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
