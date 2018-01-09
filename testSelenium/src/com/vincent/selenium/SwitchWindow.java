@@ -28,7 +28,7 @@ public class SwitchWindow {
 
     private static WebDriver driver;  
       
-    @BeforeClass  
+    @BeforeClass
     public static void before(){  
     	System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe");
         driver=new ChromeDriver();  
@@ -36,17 +36,20 @@ public class SwitchWindow {
         driver.manage().window().maximize();  
         System.out.println("there are " + driver.getWindowHandles().size() + " window");  
     }  
-    @AfterClass  
+    
+    @AfterClass
     public static void after(){  
         driver.quit();  
     }  
       
     @Test  
     public void getWindowMethod1(){  
-        Actions action = new Actions(driver);  
+       /* Actions action = new Actions(driver);  
         action.sendKeys(Keys.CONTROL + "n").perform();  
         switchToWindow("ÐÂ±êÇ©Ò³", driver);  
-        driver.get("http://www.sina.com.cn");  
+        driver.get("http://www.sina.com.cn/");*/
+        String js = "window.open('http://www.sina.com.cn/')";
+        ((JavascriptExecutor) driver).executeScript(js);
         System.out.println("there are " + driver.getWindowHandles().size() + " windows");  
     }  
       
