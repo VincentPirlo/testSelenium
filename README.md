@@ -17,7 +17,7 @@ testSelenium
 要使用\<br>
 
 Thank `you`<br>
-[百度]（https://www.baidu.com）
+[百度](https://www.baidu.com)
 
 * 希斯罗
 * 奥黑尔
