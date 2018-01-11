@@ -1,6 +1,15 @@
 # testSelenium
 学习Selenium，包括1个外部jar包目录和8个项目。
 
+## 环境配置
+Eclipse : Oxygen.1a Release(4.7.1a)<br>
+jdk : 1.8.0_131<br>
+Selenium : 3.5.3<br>
+POI : 3.16<br>
+TestNG : 6.12.0<br>
+Python : 2.7.14<br>
+Ant : apache-ant-1.10.1<br>
+
 ## 目录结构
 * ### jarsource   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;包含外部jar包<br>
