@@ -12,3 +12,4 @@
 * testSelenium Selenium学习的项目
 * testTestNG  TestNG学习的项目（包括Junit4）
 
+[justTest](/justTest/justtest.md)
