@@ -4,6 +4,7 @@
 ## 目录结构
 * ### jarsource   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;包含外部jar包<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[jarsource说明](/jarsource/jarsource.md)
 
 * ### justTest	  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;临时测试使用<br>
