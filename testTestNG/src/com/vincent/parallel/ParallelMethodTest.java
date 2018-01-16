@@ -1,0 +1,46 @@
+/**   
+* @Title: ParallelMethodTest.java 
+* @Package com.vincent.parallel 
+* @Description: TODO
+* @author Vincent  
+* @date 2018年1月16日 下午10:45:17 
+* @version V1.0   
+*/ 
+package com.vincent.parallel;
+
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+/**
+ * @Function: 并行测试
+ * http://www.importnew.com/14508.html
+ * @author: Vincent
+ * @date: 2018年1月16日下午10:45:17
+ */
+public class ParallelMethodTest {
+	
+	@BeforeMethod
+	public void beforeMethod() {
+		long id = Thread.currentThread().getId();
+		System.out.println("Before test-method. Thread id is: " + id);
+	}
+	
+	@Test
+	public void testMethodOne() {
+		long id = Thread.currentThread().getId();
+		System.out.println("Sample test-method One. Thread id is: " + id);
+	}
+	
+	@Test
+	public void testMethodTwo() {
+		long id = Thread.currentThread().getId();
+		System.out.println("Sample test-method two. Thread id is: " + id);
+	}
+	
+	@AfterClass
+	public void afterMethod() {
+		long id = Thread.currentThread().getId();
+		System.out.println("After test-method. Thread id is: " + id);
+	}
+}
