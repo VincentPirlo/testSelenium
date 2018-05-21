@@ -23,7 +23,7 @@ import org.testng.annotations.Test;
 public class ParallelSuiteTest
 {
     String testName = "";
- 
+
     @BeforeTest
     @Parameters({ "test-name" })
     public void beforeTest(String testName) {

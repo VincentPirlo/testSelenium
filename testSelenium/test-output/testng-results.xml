@@ -1,33 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4195" started-at="2018-01-08T15:19:35Z" finished-at="2018-01-08T15:19:39Z">
+  <suite name="Default suite" duration-ms="206" started-at="2018-01-27T15:04:27Z" finished-at="2018-01-27T15:04:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4195" started-at="2018-01-08T15:19:35Z" finished-at="2018-01-08T15:19:39Z">
-      <class name="com.vincent.selenium.SwitchWindow">
-        <test-method status="PASS" signature="before()[pri:0, instance:com.vincent.selenium.SwitchWindow@f6c48ac]" name="before" is-config="true" duration-ms="2921" started-at="2018-01-08T23:19:35Z" finished-at="2018-01-08T23:19:38Z">
+    <test name="Default test" duration-ms="206" started-at="2018-01-27T15:04:27Z" finished-at="2018-01-27T15:04:28Z">
+      <class name="com.vincent.datadriveno.ExcelDataTest">
+        <test-method status="PASS" signature="ts(java.util.Map)[pri:0, instance:com.vincent.datadriveno.ExcelDataTest@7d9d1a19]" name="ts" duration-ms="7" started-at="2018-01-27T23:04:28Z" data-provider="db1" finished-at="2018-01-27T23:04:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{par1=DATAr1par1, par2=DATAr1par2, par3=DATAr1par4}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="getWindowMethod1()[pri:0, instance:com.vincent.selenium.SwitchWindow@f6c48ac]" name="getWindowMethod1" duration-ms="130" started-at="2018-01-08T23:19:38Z" finished-at="2018-01-08T23:19:38Z">
+        </test-method> <!-- ts -->
+        <test-method status="PASS" signature="ts(java.util.Map)[pri:0, instance:com.vincent.datadriveno.ExcelDataTest@7d9d1a19]" name="ts" duration-ms="1" started-at="2018-01-27T23:04:28Z" data-provider="db1" finished-at="2018-01-27T23:04:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{par1=DATAr2par1, par2=DATAr2par2, par3=DATAr1par4}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getWindowMethod1 -->
-        <test-method status="PASS" signature="getWindowMethod2()[pri:0, instance:com.vincent.selenium.SwitchWindow@f6c48ac]" name="getWindowMethod2" duration-ms="102" started-at="2018-01-08T23:19:38Z" finished-at="2018-01-08T23:19:38Z">
+        </test-method> <!-- ts -->
+        <test-method status="PASS" signature="ts(java.util.Map)[pri:0, instance:com.vincent.datadriveno.ExcelDataTest@7d9d1a19]" name="ts" duration-ms="1" started-at="2018-01-27T23:04:28Z" data-provider="db1" finished-at="2018-01-27T23:04:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{par1=DATAr3par1, par2=DATAr3par2, par3=DATAr1par4}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getWindowMethod2 -->
-        <test-method status="PASS" signature="getWindowMethod3()[pri:0, instance:com.vincent.selenium.SwitchWindow@f6c48ac]" name="getWindowMethod3" duration-ms="332" started-at="2018-01-08T23:19:38Z" finished-at="2018-01-08T23:19:38Z">
+        </test-method> <!-- ts -->
+        <test-method status="PASS" signature="ts(java.util.Map)[pri:0, instance:com.vincent.datadriveno.ExcelDataTest@7d9d1a19]" name="ts" duration-ms="0" started-at="2018-01-27T23:04:28Z" data-provider="db1" finished-at="2018-01-27T23:04:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{par1=DATAr4par1, par2=DATAr4par2, par3=DATAr1par4}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getWindowMethod3 -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.vincent.selenium.SwitchWindow@f6c48ac]" name="after" is-config="true" duration-ms="689" started-at="2018-01-08T23:19:38Z" finished-at="2018-01-08T23:19:39Z">
+        </test-method> <!-- ts -->
+        <test-method status="PASS" signature="ts(java.util.Map)[pri:0, instance:com.vincent.datadriveno.ExcelDataTest@7d9d1a19]" name="ts" duration-ms="0" started-at="2018-01-27T23:04:28Z" data-provider="db1" finished-at="2018-01-27T23:04:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{par1=DATAr5par1, par2=DATAr5par2, par3=DATAr1par4}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- com.vincent.selenium.SwitchWindow -->
+        </test-method> <!-- ts -->
+      </class> <!-- com.vincent.datadriveno.ExcelDataTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

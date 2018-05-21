@@ -19,7 +19,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 /**
- * @Function: 参数化测试之二通过@DataProvider传递参数（1支持传递一个对象参数，传递一个Map对象作为参数）
+ * @Function: 参数化测试之二通过@DataProvider传递参数（2支持传递一个对象参数，传递一个Map对象作为参数）
  * @author: Vincent
  * @date: 2017年12月26日下午10:18:59
  */

@@ -1,37 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Independent test Suite" duration-ms="26" started-at="2018-01-16T15:09:55Z" finished-at="2018-01-16T15:09:55Z">
+  <suite name="Converted JUnit suite" duration-ms="71" started-at="2018-01-20T14:27:09Z" finished-at="2018-01-20T14:27:09Z">
     <groups>
     </groups>
-    <test name="Independent test" duration-ms="26" started-at="2018-01-16T15:09:55Z" finished-at="2018-01-16T15:09:55Z">
-      <class name="com.vincent.parallel.IndependentTest">
-        <test-method status="PASS" signature="testMethod()[pri:0, instance:com.vincent.parallel.IndependentTest@32d992b2]" name="testMethod" duration-ms="6" started-at="2018-01-16T23:09:55Z" finished-at="2018-01-16T23:09:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod -->
-        <test-method status="PASS" signature="testMethod()[pri:0, instance:com.vincent.parallel.IndependentTest@32d992b2]" name="testMethod" duration-ms="6" started-at="2018-01-16T23:09:55Z" finished-at="2018-01-16T23:09:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod -->
-        <test-method status="PASS" signature="testMethod()[pri:0, instance:com.vincent.parallel.IndependentTest@32d992b2]" name="testMethod" duration-ms="6" started-at="2018-01-16T23:09:55Z" finished-at="2018-01-16T23:09:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod -->
-        <test-method status="PASS" signature="testMethod()[pri:0, instance:com.vincent.parallel.IndependentTest@32d992b2]" name="testMethod" duration-ms="3" started-at="2018-01-16T23:09:55Z" finished-at="2018-01-16T23:09:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod -->
-        <test-method status="PASS" signature="testMethod()[pri:0, instance:com.vincent.parallel.IndependentTest@32d992b2]" name="testMethod" duration-ms="1" started-at="2018-01-16T23:09:55Z" finished-at="2018-01-16T23:09:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod -->
-        <test-method status="PASS" signature="testMethod()[pri:0, instance:com.vincent.parallel.IndependentTest@32d992b2]" name="testMethod" duration-ms="2" started-at="2018-01-16T23:09:55Z" finished-at="2018-01-16T23:09:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod -->
-      </class> <!-- com.vincent.parallel.IndependentTest -->
-    </test> <!-- Independent test -->
-  </suite> <!-- Independent test Suite -->
+    <test name="JUnitTests" duration-ms="71" started-at="2018-01-20T14:27:09Z" finished-at="2018-01-20T14:27:09Z">
+    </test> <!-- JUnitTests -->
+  </suite> <!-- Converted JUnit suite -->
 </testng-results>

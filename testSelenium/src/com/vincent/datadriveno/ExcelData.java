@@ -102,6 +102,5 @@ public class ExcelData implements Iterator<Object[]> {
 	@Override
 	public void remove() {
 		throw new UnsupportedOperationException("remove unsupported.");
-	}
-	
+	}	
 }
