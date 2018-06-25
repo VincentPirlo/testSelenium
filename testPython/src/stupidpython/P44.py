@@ -1,0 +1,13 @@
+# _*_ coding: utf-8 _*_
+
+class Parent(object):
+    def implicit(self):
+        print "PARENT implicit()"
+        
+class Child(Parent):
+    pass
+
+dad = Parent()
+son = Child()
+dad.implicit()
+son.implicit()
