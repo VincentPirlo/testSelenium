@@ -645,3 +645,19 @@ Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to tra
 2018-06-13 23:09:00,447 [Worker-55] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2018-06-14 21:41:21,998 [Worker-17] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2018-06-20 19:40:44,747 [Worker-30] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-06-25 23:39:13,862 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-08-06 23:09:00,630 [Worker-11] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-08-26 22:08:42,611 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-08-26 22:08:44,659 [Worker-0] WARN  org.eclipse.jgit.util.FS_Win32 - null
+2018-08-27 18:30:13,718 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-08-27 18:30:15,310 [Worker-0] WARN  org.eclipse.jgit.util.FS_Win32 - null
+2018-08-27 22:47:56,290 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-08-27 22:47:58,302 [Worker-7] WARN  org.eclipse.jgit.util.FS_Win32 - null
+2018-08-28 21:15:26,356 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-08-28 21:15:27,698 [Worker-6] WARN  org.eclipse.jgit.util.FS_Win32 - null
+2018-09-03 18:28:50,618 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-09-03 18:28:51,939 [Worker-5] WARN  org.eclipse.jgit.util.FS_Win32 - null
+2018-09-05 22:40:14,083 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-09-05 22:40:15,692 [Worker-6] WARN  org.eclipse.jgit.util.FS_Win32 - null
+2018-09-06 22:49:02,841 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-09-06 22:49:04,585 [Worker-4] WARN  org.eclipse.jgit.util.FS_Win32 - null
